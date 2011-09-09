@@ -357,6 +357,7 @@ Ability_Accursed1_name											Kauterisieren
 Ability_Accursed1_description									Auf Kosten der eigenen Gesundheit explodiert die Luft um einen Verfluchten. Dies fügt gegnerischen Einheiten Schaden zu und heilt verbündete Einheiten.
 Ability_Accursed1_description_simple							Wähle eine Einheit an um ^o{100,150,200,250} Magischen Schaden^* zu machen, wenn es eine Gegnerische Einheit ist oder heil sie für ^o{100,150,200,250} Gesundheit^* wenn es eine freundliche Einheit ist.\n\nFügt sich selbst ^o{50,75,100,125} Magischen Schaden^* zu.
 Ability_Accursed1_IMPACT_effect									Verursacht bei gegnerische Einheiten {100,150,200,250} Magischen Schaden oder heilt verbündete Einheiten mit {100,150,200,250} Gesundheitspunkten. Verursacht bei der eigenen Einheit {50,75,100,125} Magischen Schaden.
+Ability_Accursed1_IMPACT_effect:Alt        						Verursacht bei gegnerische Einheiten {100,150,200,250} Magischen Schaden oder heilt verbündete Einheiten mit {100,150,200,250} Gesundheitspunkten. Verursacht bei der eigenen Einheit {50,75,100,125} Magischen Schaden.
 Ability_Accursed1_tooltip_flavor								Das ist so eine Liebe/Hass Sache.
 
 // Ability_Accursed2
@@ -4000,6 +4001,57 @@ Hero_Martyr_name												Martyr
 Hero_Martyr_description											Few clergy of Sol burn with such brilliance that they may ascend to the highest orders of priesthood. Even fewer dare gift their own souls to the Legion, braving an eternity in damnation so that others may prosper in turn. The few who do earn the forsaken title of the Martyr, wielding a battle-ready relic in one hand and carrying the Codex Solaris in the other. To certain death they march; and some say, with more fervor than those who march towards life.
 Hero_Martyr_role												Martyr is a support hero who's all about brinkmanship. Knowing exactly how much enemies can deal and what you can take and dish out at all times is key to playing a successful Martyr. Unlike some supports, Martyr scales well with tank items, and can be a big threat if left unchecked. A combination of healing, health swing, and protective skills makes Martyr a versatile and dangerous support.
 
+// Ability_Midas1
+Ability_Midas1_name												Golden Salvo
+Ability_Midas1_description										Midas throws five flasks in a line, coating enemies in liquid gold.
+Ability_Midas1_IMPACT_effect									Throws five flasks at 200, 400, 600, 800, and 1000 distance away.\n\nThe first flask impact deals {100,140,180,220} Magic Damage and inflicts -10% Movement Speed. Each additional flask deals an additional {20,40,60,80} Magic Damage and inflicts -10% Movement Speed for 3 seconds.
+Ability_Midas1_description_simple								Target a location to throw five flasks.\n\nThe first flask impact deals ^o{100,140,180,220} Magic Damage^* and inflicts ^o-10% Movement Speed^*. Each additional flask inflicts an additional ^o{20,40,60,80} Magic Damage^* and ^o-10% Movement Speed^* for 3 seconds.
+Ability_Midas1_tooltip_flavor									"You will be flayed viciously!"
+
+// Ability_Midas2
+Ability_Midas2_name												Lion's Pride
+Ability_Midas2_description										A wave of volatile energy springs forward, healing allies before combusting violently.
+Ability_Midas2_IMPACT_effect									Sends a wave of golden energy, healing allies for {75,120,165,210} health on contact.\n\nLions start with {75,120,165,210} damage. Each ally healed increases their power by {15,20,25,30} damage.\n\nAt the targeted destination, they explode, dealing the accumulated damage to nearby enemies. Lions may store up to 360 Magic Damage.
+Ability_Midas2_description_simple								Target a location to send a wave of golden energy, healing allies for ^o{75,120,165,210} Health^* on contact.\n\nLions start with ^o{75,120,165,210} damage^*. Each ally healed increases their power by ^o{15,20,25,30}^* damage. At the destination, they explode, dealing up to ^o360 Magic Damage^*.
+Ability_Midas2_tooltip_flavor									"Here, take this."
+
+// Ability_Midas3
+Ability_Midas3_name												Elemental Warp
+Ability_Midas3_description										Carry yourself across space, warping matter around you as you leave and exit the plane.
+Ability_Midas3_IMPACT_effect									Teleports up to 700 distance away. Detonates a shockwave around Midas on departure and arrival.\n\nEnemies hit will take {80,110,140,170} Magic Damage per shockwave.
+Ability_Midas3_description_simple								Target a location to teleport up to 700 distance away. Detonates a shockwave around Midas on departure and arrival.\n\nEnemies hit will take ^o{80,110,140,170} Magic Damage^* per shockwave.
+Ability_Midas3_tooltip_flavor									"I transcend physicality."
+
+// Ability_Midas4	
+Ability_Midas4_name												Transmute
+Ability_Midas4_description										Enemies affected by more than one of the Midas's spells at once are temporarily cast into gold.
+Ability_Midas4_description2										Passively imbues all of Midas's spells with a 3 second Reagent. Combining Reagents by hitting an enemy with at least two of Midas's spells will trigger the Reagents and inflict {50,100,150} Magic Damage and 2 seconds stun.\n\nPassively decreases ability cooldowns by {2,4,6} seconds.
+Ability_Midas4_description_simple								Passively imbues each of your three basic abilities with a 3 second Reagent. Combining Reagents on an enemy will inflict ^o{50,100,150} Magic Damage^* and ^o2 seconds stun^*.\n\nPassively decreases basic ability cooldowns by ^o{2,4,6} seconds^*.
+Ability_Midas4_tooltip_flavor									"Greed is good."
+
+// State_Midas_Reagent1
+State_Midas_Reagent1_name										Salvo Reagent
+
+//State_Midas_Ability1
+State_Midas_Ability1_name										Golden Salvo
+
+// State_Midas_Reagent2
+State_Midas_Reagent2_name										Lion's Reagent
+
+// State_Midas_Reagent3
+State_Midas_Reagent3_name										Elemental Reagent
+
+// State_Midas_Reagent4
+State_Midas_Reagent4_name										Transmuting Reagent
+
+// State_Midas_Ability4
+State_Midas_Ability4_name										Golden
+
+// Hero_Midas
+Hero_Midas_name													Midas
+Hero_Midas_description											The tale of Auric of the deserts is perhaps a shrewd allegory to the fall of man. A wise and knowledgeable researcher, he had devoted his life's work to perfecting the ancient art of alchemy. However, upon discovering the vaunted power of transmutation, his lust for knowledge turned to greed, and within the span of a few mad days all around him was transformed to gold. Realizing what he had done, he gave an anguished cry and set out to atone for his sins.
+Hero_Midas_role													Midas is a support caster capable of dealing damage and disabling on a mass scale. His three basic abilities are all skillshots, and while each hold incredible damage potential, with Transmute they combine into a powerful disable, making Midas indispensable for team fights.
+
 // Ability_Moraxus1
 Ability_Moraxus1_name											Quake
 Ability_Moraxus1_description									Makes the ground quake beneath Moraxus, damaging and stunning nearby enemy units.
@@ -6837,6 +6889,7 @@ Pet_GroundFamiliar_name:C_Goblin								Goblin Courier
 Pet_GroundFamiliar_name:C_Pig									Pig Courier
 Pet_GroundFamiliar_name:C_Rat									Rat Courier
 Pet_GroundFamiliar_name:C_Robot									Robot Courier
+Pet_GroundFamiliar_name:C_Cat									Cat Courier
 
 // Item_GuardianRing
 Item_GuardianRing_name											Guardian Ring
@@ -7627,6 +7680,7 @@ Pet_FlyngCourier_name:C_Goblin									Winged Goblin Courier
 Pet_FlyngCourier_name:C_Pig										Flying Pig Courier
 Pet_FlyngCourier_name:C_Rat										Bat Courier
 Pet_FlyngCourier_name:C_Robot									UFO Courier
+Pet_FlyngCourier_name:C_Cat										Nyan Cat Courier
 
 // State_FrostfieldPlate_Aura
 State_FrostfieldPlate_Aura_name									Chilled
