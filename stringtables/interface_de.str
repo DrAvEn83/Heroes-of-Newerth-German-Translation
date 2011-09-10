@@ -463,7 +463,7 @@ options_healthbar_shadows_creep_tip			Shows a shadow bar behind creep health bar
 options_healthbar_shadows_building_tip		Shows a shadow bar behind building health bars to indicate damage taken per hit.  The shadow slowly moves to match the building's actual health.
 options_healthbar_shadows_misc_tip			Shows a shadow bar behind object health bars to indicate damage taken per hit.  The shadow slowly moves to match the object's actual health.  This option covers health bars which aren't included in the Hero, Creep, and Building checkboxes.
 
-options_checkbox_goldlerp					Animated Gold Display
+options_checkbox_goldlerp					Animirte Goldanzeige
 options_checkbox_goldlerp_tip				When enabled, your gold count animates to its current value over 350ms.
 
 options_label_game_controls					Spielsteuerung
@@ -630,46 +630,46 @@ options_btn_reset_all_controls				Setze Steuerung zurück
 options_btn_clear_shopkeys					Shop Tastenkürzel entfernen
 
 options_checkbox_health_always_on			Gesundheitsleisen immer anzeigen
-options_screen_health_always_on_tip			If enabled, health bars will always be displayed.
+options_screen_health_always_on_tip			Wenn Aktiv, werden Gesundheitsbars immer gezeigt.
 
 options_checkbox_hover_hero_info			Display Hover Info
-options_screen_hover_hero_info_tip			If enabled, hero info will be displayed when hovering.
+options_screen_hover_hero_info_tip			Wenn Aktiv, wird Held-Info gezeigt schwankend.
 
 options_checkbox_ground_sprite				Show Groundsprites
-options_screen_ground_sprite_tip			If enabled, a sprite will be displayed under heroes to convey team color or player color.
+options_screen_ground_sprite_tip			Wenn Aktiv, ein Emblem wird unter Helden gezeigt, um Mannschaft-Farbe oder Spieler-Farbe zu erkennen.
 
 options_checkbox_team_or_player_color		Use Player Specific Colors
-options_screen_team_or_player_color_tip		Uses Player Specific Colors rather than Team Colors
+options_screen_team_or_player_color_tip		Benutzr Spieler Spezifische Farben aber nicht Mannschaft-Farben
 
 options_checkbox_show_timestamps			Show Timestamps
-options_checkbox_show_timestamps_tip		If enabled, displays timestamps for in game chat.
+options_checkbox_show_timestamps_tip		Wenn Aktiv, Anzeigezeitstempel für im Spielchat
 
 options_checkbox_reverse_minimap			Swap Mini Map
 options_checkbox_reverse_minimap_tip		If enabled, the mini map on the game interface is moved from the lower left to the lower right of the screen.
 
 options_checkbox_camera_center_on_respawn		Center Camera on Respawn
-options_checkbox_camera_center_on_respawn_tip	If enabled, when your hero respawns the camera will automatically move to your heros location.
+options_checkbox_camera_center_on_respawn_tip	Wenn Aktiv. Wenn Ihr Held wiedererwacht, wird sich die Kamera automatisch zu Ihrer Hero Position bewegen.
 
 options_checkbox_disable_background_effects		Disable Background Effects
-options_checkbox_disable_background_effects_tip	If enabled, the background lobby effects and animations will not be loaded or played. \n\n(Requires a restart)         
+options_checkbox_disable_background_effects_tip	Wenn Activ, werden die Hintergrund-Effekte und Animationen nicht geladen oder gespielt. \n\n (Erfordert einen Neustart)         
 
 options_current_weather						Weather Conditions
-options_current_weather_tip					When a weather condition is selected, that weather effect will occur in game.
+options_current_weather_tip					Wenn eine Witterungsbedingung ausgewählt wird, wird diese Wettereffekt im Spiel vorkommen.
 
 options_slider_notification_duration		Display Duration
 options_slider_notification_duration_tip	Sets the length in seconds that notifications will be displayed before fading away.
 
 options_checkbox_disable_notifications		Disable All Notifications
-options_checkbox_disable_notifications_tip	If enabled, no popup notifications will be displayed, but they will still be recorded to your notification history.
+options_checkbox_disable_notifications_tip	Wenn Aktiv, werden keine popup Ankündigungen angezeigt, aber weden in der Historie aufgezeichnet
 
 options_checkbox_disable_notifications_ingame		Disable Notifications When In Game
-options_checkbox_disable_notifications_ingame_tip	If enabled, no popup notifications will be displayed while in a game, but they will still be recorded to your notification history and display when not in a game.
+options_checkbox_disable_notifications_ingame_tip	Wenn Aktiv, werden keine popup Ankündigungen angezeigt, während du in einem Spiel bist, aber weden in der Historie aufgezeichnet und nach ende des Spiels angezeigt!
 
 options_checkbox_selection_highlight		Selection Highlight
 options_checkbox_selection_highlight_tip	If enabled, units will be highlighted when hovered over.
 
 options_checkbox_ff_health					Friend/Foe Health Colors
-options_checkbox_ff_health_tip				If enabled, enemy health will always appear red, while your team will always appears green. This option requres you to restart HoN.
+options_checkbox_ff_health_tip				Wenn aktiv, wird feindliche Gesundheit immer rot angezeigt, während Ihre Mannschaft immer grün erscheint. Diese Auswahl wird erst nach einem erneutem Laden aktiv
 
 options_checkbox_showselectionring			Selection Outlines
 options_checkbox_showselectionring_tip		If enabled, selected units will be outlined.
@@ -678,13 +678,13 @@ options_checkbox_showplayerring				Self Hero Outline
 options_checkbox_showplayerring_tip			If enabled, your hero will have an outline.
 
 options_enable_minimap_rightclick			Minimap Right Click
-options_enable_minimap_rightclick_tip		If enabled, a player may direct their character via right-clicking a location on the minimap.
+options_enable_minimap_rightclick_tip		Wenn Aktiv, kann ein Spieler seinen Charakter  durch das Recht-Klicken auf eine Position auf der Mini-map steuern.
 
 options_double_activate_abilities			Enable Double Activate Abilities
-options_double_activate_abilities_tip		If enabled, double-clicking on certain items/abilities will use them on your hero automatically without needing to select a target.  (Homecoming Stone will teleport your hero to base, Health Potions will be used on yourself, etc.)
+options_double_activate_abilities_tip		Wenn Aktiv,Durch Doppelkicken auf Fähigkeiten werden sie bei deimen Hero selbst angewendet, ohne dass du ein Ziel auswählen musst.
 
 options_display_advanced_ability_tooltips	Detailed Ability Tooltips
-options_display_advanced_ability_tooltips_tip	If enabled, a detailed "classic" tooltip will be displayed when hovering over your abilites.
+options_display_advanced_ability_tooltips_tip	Wenn Aktiv, wird ein ausführlicher "klassischer" tooltip angezeigt
 
 options_enable_move_on_disconnect			Move To Spawn On Disconnect
 options_enable_move_on_disconnect_tip		If enabled, the server will automatically move your hero back to base whenever you crash, freeze, or lose your internet connection.
