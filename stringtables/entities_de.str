@@ -8167,7 +8167,7 @@ Item_Regen_shop_categories										Filter_Regeneration,Filter_Damage
 Item_LifeSteal4_name											Symbol of Rage
 Item_LifeSteal4_description										Symbols of Rage werden aus der Haut hingerichteter Mörder geätzt und verleihen dem Träger Vampirattacken, einen beträchtlichen Stärkebonus und verbesserte Rüstungseigenschaften. Bei ihrer Aktivierung gewähren sie unglaubliche Tapferkeit im Kampf.
 Item_LifeSteal4_description2									Dieser Gegenstand enthält einen exklusiven Parameter vom Typ ^gLife Steal^*. Exklusive Parameter summieren sich nicht. Du verwendest automatisch Deinen mächtigsten Parameter dieses Typs.
-Item_LifeSteal4_description_simple								^oAttack Modifier^*\nUse to temporarily grant massive lifesteal.
+Item_LifeSteal4_description_simple								^oAttack Modifikator ^*\nBenutze es um Vorübergehen einen massiven lifesteal zu Erhalten.
 Item_LifeSteal4_search_terms									symbolofrage,rage,symbol,satanic,strength,lifesteal,leech,armor,unkillable,ultralisk,tank,sor
 Item_LifeSteal4_effect_header									Symbolic Rage Effects
 Item_LifeSteal4_IMPACT_effect									Bewirkt bei sich selbst 20 Sekunden lang den Effekt Symbolic Rage.
@@ -8189,7 +8189,7 @@ Item_Intelligence5_shop_categories								Filter_Intelligence,Filter_Agility,Fil
 Item_Lightning1_name											Thunderclaw
 Item_Lightning1_description										Thunderclaws werden aus den Extremitäten einer seltenen Kreatur geschnitten, die sich in den stinkenden Mooren des Westens versteckt hält. Thunderclaws erhöhen die Gewandtheit, verursachen moderaten Schaden und lösen manchmal Chain Lightning aus.
 Item_Lightning1_description2									Die Auslöse-Wahrscheinlichkeit dieses Gegenstandes summiert sich nicht mit ^rCharged Hammer^*.
-Item_Lightning1_description_simple								^oLightning Modifier^*\nGrants a chance to unleash a Chain Lighting on attack.
+Item_Lightning1_description_simple								^oLightning Modifikator ^*\n Chance darauf das sich ein Ketten-Blitz freisetzt, der sich auf dem Gegner entzündet.
 Item_Lightning1_search_terms									thunderclaw,tclaw,maelstrom,malestrom,maelstorm,malestorm,mael,lightning,damage,dmg,attackspeed,as,zap,tc
 Item_Lightning1_effect_header									Status Effect
 Item_Lightning1_shop_flavor										Thunderclaws werden aus den Extremitäten einer seltenen Kreatur geschnitten, die sich in den stinkenden Mooren des Westens versteckt hält. Thunderclaws waren lange Zeit eine der bevorzugten Waffen der Beast Horde. Die erschütternde Energie in ihrem Inneren verleiht ihrem Träger neue Gewandtheit und verursacht beim Feind sengende Schmerzen. Seltener ergibt sich eine Verbindung zwischen der Lebenskraft des Trägers und der nekrotischen Thunderclaw, die in einem Energiestoß freigesetzt wird und nahestehende Feinde durch einen Stromschlag tötet.
@@ -8230,7 +8230,7 @@ State_Item4K_description										Base Movement Speed set to 100
 Item_WhisperingHelm_name										Whispering Helm
 Item_WhisperingHelm_description									Gaben der Hellbourne an ihre verdorbenen Leutnants. Die Whispering Helms verleihen Vampirangriffe, vergrößern die Stärke beträchtlich und die Rüstungseigenschaften moderat und gewähren die Macht vom Typ Dominate zur Kontrolle der Creeps.
 Item_WhisperingHelm_description2								Dieser Gegenstand enthält einen exklusiven Parameter vom Typ ^gLife Steal^*. Exklusive Parameter summieren sich nicht. Du verwendest automatisch Deinen mächtigsten Parameter dieses Typs.
-Item_WhisperingHelm_description_simple							^oAttack Modifier^*\nGrants lifesteal and the ability to mind control enemy units.
+Item_WhisperingHelm_description_simple							^oAttack Modifikator ^*\n Erlaubt dir Lebensdiebstahl und die Fähigkeit zur Bewusstseinskontrolle Feindlicher Einheiten.
 Item_WhisperingHelm_search_terms								whisperinghelm,whispering,whisperhelm,whisper,helmofthedominator,dominator,helmofthedominater,dominater,helmofdominator,helmofdominaater,lifesteal,leech,armor,damage,dmg,creep,dominate
 Item_WhisperingHelm_effect_header								Status Effect
 Item_WhisperingHelm_shop_flavor									Whispering Helms sind Gaben der Hellbourne an ihre verdorbenen Leutnants. Diese Helme gewähren sowohl Rüstungsbonus und größere Angriffskraft sowie die Fähigkeit, das Leben aus den Feinden zu saugen. Die in den Helmen gefangenen Geister sind jedoch noch viel schrecklicher. Sie treiben den Träger in den Wahnsinn und können angerufen werden, um die Gedanken niederer Kreaturen zu kontrollieren.
@@ -8241,7 +8241,7 @@ Item_WhisperingHelm_IMPACT_effect								Beherrscht Ziele, übernimmt die Kontro
 Item_Evasion_name												Wingbow
 Item_Evasion_description										Wingbows werden von vornehmen Killern bevorzugt verwendet. Sie erhöhen beträchtlich die Gewandtheit, die Angriffsgeschwindigkeit, das Ausweichvermögen und das Schadenspotential.
 Item_Evasion_description2										Dieser Gegenstand enthält die Eigenschaften vom Typ ^yEvasion^*. Die Eigenschaften vom Typ Evasion summieren sich nicht. Stattdessen verwendest Du automatisch das die Evasion-Eigenschaft des Gegenstandes oder der Fähigkeit, welche Dir die höchste Fluchtmöglichkeit bietet.
-Item_Evasion_description_simple									^oEvasion Modifier^*\nGrants high damage, agility, attack speed, and evasion.
+Item_Evasion_description_simple									^oEvasion Modifikator ^*\n die Zuschüsse verursachen hohe Schäden, Agility, Angriffs-Geschwindigkeit, und schützt dich mit erhöhter Chance zum Ausweichen.
 Item_Evasion_search_terms										wingbow,wingedbow,butterfly,bfly,damage,dmg,evasion,evade,agility,attackspeed,as,wb,miss
 Item_Evasion_effect_header										Status Effect
 Item_Evasion_shop_flavor										Bei den Wingbows handelt es sich die besten Bögen, die jemals von der Beast Horde hergestellt wurden.  Durchtränkt mit den Segnungen eines jeden der New Gods und mit einem Geruch von Ölen und einem Kräutersud versehen verleihen diese Waffen ihren Trägern erstaunliche Gewandtheit, sodass ihre Angriffe beinahe jedes Mal True Damage verursachen.
@@ -8250,7 +8250,7 @@ Item_Evasion_shop_categories									Filter_Agility,Filter_Damage,Filter_AttackS
 // Item_WingedFamiliar
 Item_WingedFamiliar_name										Winged Courier
 Item_WingedFamiliar_description									Diese verzauberten Tragra-Affen besitzen Flügel. Winged Couriers tragen Gegenstände zum Basislager und zurück. Im Falle ihres Todes lassen sie ihren Gegenstand zu Boden fallen.
-Item_WingedFamiliar_description_simple							Use to upgrade a Monkey Courier to fly.
+Item_WingedFamiliar_description_simple							Verwenden das, um einen Courier zu einem Fliegendem-Corier zu befördern.
 Item_WingedFamiliar_search_terms								wingedcourier,wingcourier,wingedmonkey,wingmonkey,flyingcourier,flycourier,flyingmonkey,flymonkey,chicken,crow,ferry,essential,speedymonkey
 Item_WingedFamiliar_effect_header								Status Effect
 Item_WingedFamiliar_shop_flavor									Verzauberte Tragra-Affen durchlaufen ein jahrelanges Training der Beast Horde, ehe sie als Kuriere eingesetzt werden. Diese Winged Couriers dienen nun jedem, um Gegenstände zum Lager und zurück zu transportieren. Manche Magische Gegenstände überfordern allerdings ihre Fähigkeiten.
@@ -8260,7 +8260,7 @@ Item_WingedFamiliar_IMPACT_effect								Erzeugt einen Winged Courier, der unter
 // Item_FenrirFang
 Item_FenrirFang_name											Fenrir's Fang
 Item_FenrirFang_description										On attack, applies Fenrir's Bite to target.
-Item_FenrirFang_description2									This item contains an ^oAttack ^oModifier^*. Attack modifiers are exclusive and do not stack with other attack modifiers.
+Item_FenrirFang_description2									Dieser Artikel enthält einen ^oAttack ^oModifier ^*. Angriffsmodifikatoren sind exklusiv und decken sich nicht mit anderen Angriffsmodifikatoren.
 Item_FenrirFang_effect_header									Fenrir's Bite Effect
 Item_FenrirFang_shop_flavor										
 Item_FenrirFang_description:attack								On attack, applies Fenrir's Bite to target, slowing them.
@@ -8271,10 +8271,10 @@ Item_FenrirFang_ATTACK_IMPACT_effect:attack						Applies Fenrir's Bite to target
 Item_Freeze_name												Frostwolf's Skull
 Item_Freeze_description											Ein mächtiges Totem des Beast God of Vengeance. Dieser heilige Schädel bewirkte bei den wilden Wölfen aus Frostfield gewaltige Schübe aller Attribute, verleiht einen beträchtlichen Anstieg von Health und Mana und verlangsamt die Feinde mit den eigenen Angriffen.
 Item_Freeze_description2										Dieser Gegenstand enthält einen ^rAttack ^rModifier^*. Attack Modifiers sind exklusiv und summieren sich nicht mit anderen Angriffsparametern.
-Item_Freeze_description_simple									^oAttack Modifier^*\nYour attacks and single-target spells greatly slow enemies.
+Item_Freeze_description_simple									^oAttack Modifikator ^*\n Ihre Angriffe  verlangsamt Feinde außerordentlich.
 Item_Freeze_search_terms										frostwolfsskull,frostwolfskull,frostwolf,wolf,fws,frostskull,eyeofskadi,eyeofskaadi,skaadi,skadi,eos,strength,agility,intelligence,health,life,mana,energy,damage,dmg,slow
 Item_Freeze_effect_header										Status Effect
-Item_Freeze_tooltip_flavor										My blood freezes when I hold it...
+Item_Freeze_tooltip_flavor										Mein Blut friert, wenn ich es halte...
 Item_Freeze_shop_flavor											Einer der von den Bestien angebeteten New Gods ist der Frostwolf, eine fabelhafte Kreatur und Personifizierung der kalten Vergeltung. Zu seinen Ehren werden die gefrorenen Schädel der weißen Wölfe zu Totems gestaltet, die unter dem Namen Frostwolf's Skulls bekannt sind. Diese heiligen Schädel gewähren dem Träger einen Eisangriff, einen gewaltigen Anstieg aller Fähigkeiten und höhere Health sowie magisches Potential.
 Item_Freeze_shop_categories										Filter_Damage,Filter_Agility,Filter_Strength,Filter_Intelligence,Filter_Booster,Filter_Modifier
 Item_Freeze_description:attack									Ein mächtiges Totem des Beast God of Vengeance. Dieser heilige Schädel ist nach dem Wolf of the Wild benannt und erhöht alle Attribute ungemein, verleiht einen beträchtlichen Schub an Health und Mana und verlangsamt die Feinde durch die eigenen Angriffe.
@@ -8692,23 +8692,23 @@ Neutral_WolfCommander_name										Wolf Commander
 
 // Ability_Glyph_Hellbourne
 Ability_Glyph_Hellbourne_name									Demonic Fortification
-Ability_Glyph_Hellbourne_description_simple						Protects all allied buildings with high Armor for a few seconds.
-Ability_Glyph_Hellbourne_description							Protects all allied buildings with high Armor for a few seconds.
+Ability_Glyph_Hellbourne_description_simple						Schützt alle verbündeten Gebäude mit einer extrem hohen Rüstung für ein paar Sekunden.
+Ability_Glyph_Hellbourne_description							Schützt alle verbündeten Gebäude mit einer extrem hohen Rüstung für ein paar Sekunden.
 Ability_Glyph_Hellbourne_description2							
 Ability_Glyph_Hellbourne_effect_header							Fortified Effects
 Ability_Glyph_Hellbourne_effect_header2							
 Ability_Glyph_Hellbourne_tooltip_flavor							
-Ability_Glyph_Hellbourne_IMPACT_effect							Applies Fortified to all allied buildings for 4 seconds.
+Ability_Glyph_Hellbourne_IMPACT_effect							Fortified Gilt für alle verbündeten Gebäude für 4 Sekunden
 
 // Ability_Glyph_Legion
 Ability_Glyph_Legion_name										Fortification of Sol
-Ability_Glyph_Legion_description_simple							Protects all allied buildings with high Armor for a few seconds.
-Ability_Glyph_Legion_description								Protects all allied buildings with high Armor for a few seconds.
+Ability_Glyph_Legion_description_simple							Schützt alle verbündeten Gebäude mit einer extrem hohen Rüstung für ein paar Sekunden.
+Ability_Glyph_Legion_description								Schützt alle verbündeten Gebäude mit einer extrem hohen Rüstung für ein paar Sekunden.
 Ability_Glyph_Legion_description2								
 Ability_Glyph_Legion_effect_header								Fortified Effects
 Ability_Glyph_Legion_effect_header2								
 Ability_Glyph_Legion_tooltip_flavor								
-Ability_Glyph_Legion_IMPACT_effect								Applies Fortified to all allied buildings for 4 seconds.
+Ability_Glyph_Legion_IMPACT_effect								Fortified Gilt für alle verbündeten Gebäude für 4 Sekunden.
 
 // State_Glyph_Hellbourne
 State_Glyph_Hellbourne_name										Fortified
