@@ -2128,7 +2128,12 @@ mstore_product834_name		Flag- Maldives
 mstore_product835_name		Dark Jeraziah
 mstore_product837_name		Midas
 mstore_product838_name		Lord Midas
-mstore_product839_name		Flag- Mali
+mstore_product841_name		Flag- Mali
++mstore_product842_name		Logger Legionnaire
++mstore_product843_name		Elite Legionnaire Bundle
++mstore_product844_name		Hero- Midas
++mstore_product845_name		Hero- Master of Arms
++mstore_product846_name		Hero- Rhapsody
 
 
 mstore_product999999001_name	Standard Account Icon
@@ -2596,6 +2601,7 @@ mstore_Hero_Geomancer_name			Geomancer
 mstore_Hero_Scout_name				Scout
 mstore_Hero_Midas_name				Midas
 mstore_Hero_Jereziah_name			Jeraziah
+mstore_Hero_Legionnaire_name		Legionnaire
 
 
 //Account Icons
