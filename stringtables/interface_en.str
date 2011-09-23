@@ -2134,6 +2134,11 @@ mstore_product843_name		Elite Legionnaire Bundle
 mstore_product844_name		Hero- Midas
 mstore_product845_name		Hero- Master of Arms
 mstore_product846_name		Hero- Rhapsody
+mstore_product849_name		King Cthulhuphant
+mstore_product850_name		Mr. Chipper
+mstore_product851_name		Hero Alt- Mr. Chipper
+mstore_product852_name		Hero- Cthulhuphant
+mstore_product853_name		Hero Alt- King Cthulhu
 
 
 mstore_product999999001_name	Default Account Icon
@@ -2252,6 +2257,8 @@ mstore_avatar_show_ownedheroes	Owned Heroes
 mstore_avatar_show_unownedheroes	Un-Owned Heroes
 mstore_eap				Early Access
 mstore_releasedate		Release Date
+mstore_outnow			Available
+mstore_playable			Playable Now!
 mstore_latestheroes		Latest Heroes
 mstore_eapdesc_legacy	Play the newest heroes today!  Get early access to the heroes before they are added to the hero pool for all Legacy players.
 mstore_eapdesc_garena	Play the newest heroes today!  Get early access to the heroes before they are added to the hero pool for all VIP players.
@@ -2270,9 +2277,15 @@ mstore_eap_includes					Includes
 mstore_eap_exclusive				Exclusive
 mstore_eap_only						EA Only
 mstore_eap_avatar					Avatar!
+
+mstore_noeap_includes				Exclusive
+mstore_noeap_exclusive				Limited
+mstore_noeap_only					Time
+mstore_noeap_avatar					Avatar!
+
 mstore_eap_tip_altavetitle			Alternate Avatar
 mstore_eap_tip_altavetitle_txt		This hero has alternate avatars. Select the icons above or below to preview the different avatars.
-mstore_tip_herodisplay_hasalt_txt	This hero has an alternate avatar. Click the icons to view the avatars available. Purchasing the hero does NOT autmatically purchase the alternate avatars. You must purchase alternate avatars separately.
+mstore_tip_herodisplay_hasalt_txt	This hero has an alternate avatar. Click the icons to view the avatars available. Purchasing the hero does NOT automatically purchase the alternate avatars. You must purchase alternate avatars separately.
 
 mstore_eap_altav_orig				Original
 mstore_eap_altav_eapExc				EA Exclusive
@@ -2602,7 +2615,8 @@ mstore_Hero_Scout_name				Scout
 mstore_Hero_Midas_name				Midas
 mstore_Hero_Jereziah_name			Jeraziah
 mstore_Hero_Legionnaire_name		Legionnaire
-
+mstore_Hero_Chipper_name			The Chipper
+mstore_Hero_Cthulhuphant_name		Cthulhuphant
 
 //Account Icons
 mstore_unlock_icon_btn				Unlock Icon Slot
@@ -4430,6 +4444,7 @@ ui_items_cc_right_click_clan_removetxt		Are you sure you want to remove this cla
 ui_items_cc_right_click_clan_invite			Invite To Clan
 ui_items_cc_right_click_clan_leave			Leave Clan
 ui_items_cc_right_click_watch_game			Monitor Game
+
 ui_items_cc_friends_online					Online Friends
 ui_items_cc_friends_in_game					Friends In Game
 ui_items_cc_friends_offline					Offline Friends

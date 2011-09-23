@@ -1459,6 +1459,100 @@ Hero_CorruptedDisciple_name										Corrupted Disciple
 Hero_CorruptedDisciple_description								Having traded Sol's sacred flame for the potent and unholy energy of the Hellbourne, the Corrupted Disciple is now little more than a battery of black magic.  He unleashes this fell sorcery in many forms, some to his benefit but all to the agony of those around him.
 Hero_CorruptedDisciple_role										The Corrupted Disciple is most powerful alone, as he can abuse Electric Tide and his fast movement speed to outmaneuver his opponent. Corrupted Conduit and Overload will make short work of isolated, slower heroes.
 
+// Ability_Cthulhuphant1
+Ability_Cthulhuphant1_name										Trample
+Ability_Cthulhuphant1_description								Cthulhuphant charges forward, trampling enemy heroes along the way and shooting weaker foes forward as projectiles.
+Ability_Cthulhuphant1_description2								
+Ability_Cthulhuphant1_description_simple						Target a location to charge ^o800 units^* in that direction. Enemies trampled suffer ^o{60,120,180,240} Magic Damage and a {1.5,1.75,2,2.25} second Stun^*. In addition, non-hero units will be shot forward by Cthulhuphant, acting as projectiles that deal ^o{10,15,20,25} Magic Damage and a 1 second Stun^* to the first enemy hero hit.
+Ability_Cthulhuphant1_effect_header								
+Ability_Cthulhuphant1_effect_header2							
+Ability_Cthulhuphant1_tooltip_flavor							I'm a pool shark...
+Ability_Cthulhuphant1_IMPACT_effect								Target a location to charge ^o800 units^* in that direction. Enemies trampled suffer ^o{60,120,180,240} Magic Damage and a {1.5,1.75,2,2.25} second Stun^*. In addition, non-hero units will be shot forward by Cthulhuphant, acting as projectiles that deal ^o{10,15,20,25} Magic Damage and a 1 second Stun^* to the first enemy hero hit.
+
+// State_Cthulhuphant_Ability1
+State_Cthulhuphant_Ability1_name								
+State_Cthulhuphant_Ability1_description							
+State_Cthulhuphant_Ability1_description2						
+State_Cthulhuphant_Ability1_description_simple					
+State_Cthulhuphant_Ability1_FRAME_effect						
+
+// State_Cthulhuphant_Ability1_Target
+State_Cthulhuphant_Ability1_Target_name							
+State_Cthulhuphant_Ability1_Target_description					
+State_Cthulhuphant_Ability1_Target_description2					
+State_Cthulhuphant_Ability1_Target_description_simple			
+State_Cthulhuphant_Ability1_Target_FRAME_effect					
+
+// Ability_Cthulhuphant2
+Ability_Cthulhuphant2_name										Hook 'em
+Ability_Cthulhuphant2_description								Cthulhuphant gores an enemy unit with his tusks and uses its corpse as a shield.
+Ability_Cthulhuphant2_description2								
+Ability_Cthulhuphant2_description_simple						Target an enemy unit to ^oinstantly kill it^* and gain a shield with ^o{40,60,80,100}% of its Max Health^* for ^o30 seconds^*. This shield ^oabsorbs {30,40,50,60}%^* of pre-mitigation damage dealt to Cthulhuphant's front.
+Ability_Cthulhuphant2_effect_header								
+Ability_Cthulhuphant2_effect_header2							
+Ability_Cthulhuphant2_tooltip_flavor							Hook 'em horns!
+Ability_Cthulhuphant2_START_effect								
+Ability_Cthulhuphant2_IMPACT_effect								Target an enemy unit to ^oinstantly kill it^* and gain a shield with ^o{40,60,80,100}% of its Max Health^* for ^o30 seconds^*. This shield ^oabsorbs {30,40,50,60}%^* of pre-mitigation damage dealt to Cthulhuphant's front.
+
+// State_Cthulhuphant_Ability2
+State_Cthulhuphant_Ability2_name								Bodyshielded
+State_Cthulhuphant_Ability2_description							Carrying around a creep corpse which absorbs 60% of pre-mitiation damage to Cthulhuphant's front.
+State_Cthulhuphant_Ability2_description2						
+State_Cthulhuphant_Ability2_description_simple					
+State_Cthulhuphant_Ability2_ATTACKED_DAMAGE_EVENT_effect		
+
+// Ability_Cthulhuphant3
+Ability_Cthulhuphant3_name										Mortifying Presence
+Ability_Cthulhuphant3_description								Nearby enemies are mortified by Cthulhuphant's sinister aura, and their fear heightens when Cthulhuphant kills something.
+Ability_Cthulhuphant3_description2								
+Ability_Cthulhuphant3_description_simple						Passively reduces nearby enemies' ^oAttack Speed by {5,10,15,20}^* and ^oMovement Speed by {4,6,8,10}%^*. When Cthulhuphant kills a unit, the effect is doubled for 10 seconds. When he kills a hero, the effect is tripled for 10 seconds.
+Ability_Cthulhuphant3_effect_header								
+Ability_Cthulhuphant3_effect_header2							
+Ability_Cthulhuphant3_tooltip_flavor							
+Ability_Cthulhuphant3_KILL_effect								Passively reduces nearby enemies' ^oAttack Speed by {5,10,15,20}^* and ^oMovement Speed by {4,6,8,10}%^*. When Cthulhuphant kills a unit, the effect is doubled for 10 seconds. When he kills a hero, the effect is tripled for 10 seconds.
+
+// State_Cthulhuphant_Ability3
+State_Cthulhuphant_Ability3_name								Mortifying Presence
+State_Cthulhuphant_Ability3_description							Scared by Cthulhuphant's awesomeness
+State_Cthulhuphant_Ability3_description2						
+State_Cthulhuphant_Ability3_description_simple					
+State_Cthulhuphant_Ability3_FRAME_effect						
+
+// State_Cthulhuphant_Ability3_HeroKill
+State_Cthulhuphant_Ability3_HeroKill_name						Super Scary
+State_Cthulhuphant_Ability3_HeroKill_description				Cthulhuphant killed a HERO!!! RUN!!!!
+State_Cthulhuphant_Ability3_HeroKill_description2				
+State_Cthulhuphant_Ability3_HeroKill_description_simple			
+
+// State_Cthulhuphant_Ability3_Unitkill
+State_Cthulhuphant_Ability3_Unitkill_name						Extra Scary
+State_Cthulhuphant_Ability3_Unitkill_description				Cthulhuphant killed a unit. People are scurred.
+State_Cthulhuphant_Ability3_Unitkill_description2				
+State_Cthulhuphant_Ability3_Unitkill_description_simple			
+
+// Ability_Cthulhuphant4
+Ability_Cthulhuphant4_name										Obliterate
+Ability_Cthulhuphant4_description								Cthulhuphant unleashes hellish fury~ from his many trunks, shooting out a salvo of giant evil beams in front of him in pulses.
+Ability_Cthulhuphant4_description2								
+Ability_Cthulhuphant4_description_simple						Activate to shoot ^o5 beams^* in front of Cthulhuphant, once every second. Each beam deals ^o{80,140,200} Magic Damage^* to enemies hit.
+Ability_Cthulhuphant4_effect_header								
+Ability_Cthulhuphant4_effect_header2							
+Ability_Cthulhuphant4_tooltip_flavor							
+Ability_Cthulhuphant4_IMPACT_effect								Activate to shoot ^o5 beams^* in front of Cthulhuphant, once every second. Each beam deals ^o{80,140,200} Magic Damage^* to enemies hit.
+
+// State_Cthulhuphant_Ability4
+State_Cthulhuphant_Ability4_name								
+State_Cthulhuphant_Ability4_description							
+State_Cthulhuphant_Ability4_description2						
+State_Cthulhuphant_Ability4_description_simple					
+State_Cthulhuphant_Ability4_IMPACT_effect						
+State_Cthulhuphant_Ability4_INFLICT_effect						
+
+// Hero_Cthulhuphant
+Hero_Cthulhuphant_name											Cthulhuphant
+Hero_Cthulhuphant_description									
+Hero_Cthulhuphant_role				
+
 // Ability_Dampeer1
 Ability_Dampeer1_name											Terrorize
 Ability_Dampeer1_description									Dampeer instills terror within nearby foes, damaging and disabling them and causing them to run around aimlessly.
@@ -4832,7 +4926,7 @@ State_Rampage_Ability1_Warp_tooltip_flavor						None
 // Ability_Rampage2
 Ability_Rampage2_name											Might of the Herd
 Ability_Rampage2_description									The rhino Rampage rides is a born leader, enhancing his Movement Speed and giving Rampage more damage the faster he is moving. Upon command his Rhino can stomp the ground, slowing people around himself.
-Ability_Rampage2_description_simple								On activation, applies ^o{-35,-50,-65,-80} Movement Speed^* to nearby enemy units.\n\nPassively grants ^o{4,6,8,10} Movement Speed^* and ^o{3,6,9,12}% of your Movement Speed as Attack Damage^*.
+Ability_Rampage2_description_simple								On activation, applies ^o{-35,-50,-65,-80} Movement Speed^* to nearby enemy units.\n\nPassively grants ^o{4,6,8,10}% Movement Speed^* and ^o{3,6,9,12}% of your Movement Speed as Attack Damage^*.
 Ability_Rampage2_description2									
 Ability_Rampage2_effect_header									Herded Effects
 Ability_Rampage2_effect_header2									
