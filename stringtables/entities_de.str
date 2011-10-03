@@ -1468,6 +1468,7 @@ Ability_Cthulhuphant1_effect_header
 Ability_Cthulhuphant1_effect_header2							
 Ability_Cthulhuphant1_tooltip_flavor							I'm a pool shark...
 Ability_Cthulhuphant1_IMPACT_effect								Target a location to charge ^o800 units^* in that direction. Enemies trampled suffer ^o{60,120,180,240} Magic Damage and a {1.5,1.75,2,2.25} second Stun^*. In addition, non-hero units will be shot forward by Cthulhuphant, acting as projectiles that deal ^o{10,15,20,25} Magic Damage and a 1 second Stun^* to the first enemy hero hit.
+Ability_Cthulhuphant1_IMPACT_effect:Alt							Target a location to charge ^o800 units^* in that direction. Enemies trampled suffer ^o{60,120,180,240} Magic Damage and a {1.5,1.75,2,2.25} second Stun^*. In addition, non-hero units will be shot forward by Cthulhuphant, acting as projectiles that deal ^o{10,15,20,25} Magic Damage and a 1 second Stun^* to the first enemy hero hit.
 
 // State_Cthulhuphant_Ability1
 State_Cthulhuphant_Ability1_name								
@@ -1903,14 +1904,6 @@ Ability_DiseasedRider4_IMPACT_effect:ult_boost					Deals ^g{370,460,550}^* Magic
 
 Ability_DiseasedRider4_tooltip_flavor							You dirty rat!
 
-// State_Ability4
-State_DiseasedRider_Ability4_name								Infected
-
-// Hero_DiseasedRider
-Hero_DiseasedRider_name											Plague Rider
-Hero_DiseasedRider_description									The pestilential stench of the Plague Rider can be smelled for miles, a foul warning of the diseases following in its wake.  Mounted atop his undead steed, carried aloft on a stinking cloud of flies, the Plague Rider sows sickness among friends and enemies alike, all with the end of spreading disease across the lands of Newerth.
-Hero_DiseasedRider_role											The Plague Rider has nearly limitless mana from consuming units with Extinguish and is able to buff his team with Cursed Shield. While Contagion is a strong spell, the Plague Rider requires his team be able to clear creeps with area-of-effect damage to make the most out of Plague Carrier. 
-
 // Ability_Rhapsody1
 Ability_Rhapsody1_name											Staccato
 Ability_Rhapsody1_description									Rhapsody sings a verse that causes her target to stagger with every note.
@@ -2118,6 +2111,7 @@ Ability_DrunkenMaster3_effect_header2
 Ability_DrunkenMaster3_tooltip_flavor							Dear chap, I might be a wee bit inebriated.
 Ability_DrunkenMaster3_description_simple						Target a location to stagger there, following ^opathing^*, and deal ^o{40,80,120,160} Physical Damage^* at the end of the movement. Disjoints on use.\n\n^255With 2 Drunk charges^*:\nGrants ^o{20,40,60,80} Movement Speed and Attack Damage for 4 seconds^*
 Ability_DrunkenMaster3_IMPACT_effect							Target a location to stagger there, following pathing, and deal {40,80,120,160} Physical Damage at the end of the movement. Disjoints on use.\n\nWith 2 Drunk charges:\nGrants {20,40,60,80} Movement Speed and Attack Damage for 4 seconds
+Ability_DrunkenMaster3_IMPACT_effect:Alt						Target a location to stagger there, following pathing, and deal {40,80,120,160} Physical Damage at the end of the movement. Disjoints on use.\n\nWith 2 Drunk charges:\nGrants {20,40,60,80} Movement Speed and Attack Damage for 4 seconds
 
 // State_Drunkenmaster_Ability3_Buff
 State_Drunkenmaster_Ability3_Buff_name							Staggerin'
@@ -2248,7 +2242,6 @@ State_Ebulus_Ability1_FRAME_effect								5 Ticks {10,20,40,50} Magischer Schade
 Ability_Ebulus2_name											Vergiftung
 Ability_Ebulus2_description										Die Angriffe des Slither enthalten einen Giftschaden. Seine Angriffe verringern daher die Bewegungsgeschwindigkeit des Zielobjekts und verursachen im Verlauf der Zeit Schaden.
 Ability_Ebulus2_description_simple								Passivly enhances attacks to deal an additional ^o{35,70,105,140} Magic Damage over 7 seconds^*. Enemies may not be healed during the duration.\n\nThis ability is an ^oAttack Modifier^*. Attack modifiers are exclusive and do not stack with other attack modifiers.
-Ability_Ebulus2_description2									Diese Fähigkeit enthält einen ^rAngriffs-^rParameter^*. Angriffsparameter sind exklusiv und haben keine Auswirkungen auf andere Parameter.
 Ability_Ebulus2_effect_header									Auswirkungen der Vergiftung
 Ability_Ebulus2_effect_header:attack							Auswirkungen
 Ability_Ebulus2_ATTACK_IMPACT_effect:attack						Bewirkt beim Zielobjekt 7 Sekunden lang Vergiftung.
@@ -2396,6 +2389,7 @@ Ability_Empath2_IMPACT_effect									Erschafft einen 650 Einheiten langen Vorha
 
 // State_Empath_Ability2_Effects
 State_Empath_Ability2_Effects_FRAME_effect						50 Magischen Schaden pro Sekunde
+
 // Ability_Empath3
 Ability_Empath3_name											Synergie
 Ability_Empath3_description										Gibt Verbündeten Gesundheitsregeneration.
@@ -2532,12 +2526,10 @@ Ability_Fade2_IMPACT_effect										Creates Burning Shadows for 800 units in th
 Ability_Fade2_tooltip_flavor									The darkness can put you beside yourself...
 
 // Ability_Fade3
-Ability_Fade3_name:fadeshadowmode								Shadow Stance
+Ability_Fade3_name												Scythe Stance
 Ability_Fade3_description										Fayde becomes a master at using her Scythe or bending the Shadows around her, protecting her from damage and enhancing her other abilities. Fayde starts in Scythe Stance.
 Ability_Fade3_description_simple								Toggle to switch between ^yScythe Stance^* and ^yShadow Stance^*.\n\nPassively grants up to {1,2,3,4} charges that ^oblock 40 damage^* each.  Charges replenish every 10 seconds.
-Ability_Fade3_IMPACT_effect:fadeshadowmode						Toggles to Scythe Stance.\n\nFayde gains a Deflection charge every 10 seconds with a maximum of {1,2,3,4} charges. Each charge blocks up to 40 damage from player-controlled units.\n\nThis ability may be toggled without breaking Reflection's stealth.\n\n^yScythe Stance^*:\n- Deflection blocks Physical Damage\n- Cull stuns\n- Burning Shadows destroys mana\n- Reflection's Shadow Cripple effect deals Physical Damage\n\n^yShadow Stance^*:\n- Deflection blocks Magic Damage\n- Cull destroys mana\n- Burning Shadows stuns\n- Reflection's Shadow Cripple effect deals Magic Damage
 Ability_Fade3_IMPACT_effect										Toggles to Shadow Stance.\n\nFayde gains a Deflection charge every 10 seconds with a maximum of {1,2,3,4} charges. Each charge blocks up to 40 damage from player-controlled units.\n\nThis ability may be toggled without breaking Reflection's stealth.\n\n^yScythe Stance^*:\n- Deflection blocks Physical Damage\n- Cull stuns\n- Burning Shadows destroys mana\n- Reflection's Shadow Cripple effect deals Physical Damage\n\n^yShadow Stance^*:\n- Deflection blocks Magic Damage\n- Cull destroys mana\n- Burning Shadows stuns\n- Reflection's Shadow Cripple effect deals Magic Damage
-Ability_Fade3_name												Scythe Stance
 Ability_Fade3_tooltip_flavor									Choose wisely.
 
 // State_Fade_Ability3_MortalStrike
@@ -2551,7 +2543,6 @@ Ability_Fade4_name												Reflection
 Ability_Fade4_description										Fayde becomes one with the shadows, going stealth for a short time. When Fayde attacks from stealth she cripples the enemy, dealing heavy damage over a few seconds.
 Ability_Fade4_description_simple								Activate to become ^oInvisible for {20,35,50} seconds^*.\n\nYour first attack out of Invisibility inflicts ^o{225,375,525} damage^* over 2 seconds and ^o-50% Heal^* for 3 seconds.\n\n^yShadow Stance^*: Deals Magic Damage.\n^yScythe Stance^*: Deals Physical Damage.
 Ability_Fade4_effect_header										Reflection Effects
-Ability_Fade4_effect_header2									Shadow Cripple Effects
 Ability_Fade4_IMPACT_effect										Applies Reflection to Fayde for {20,35,50} seconds.\n\nWhen Fayde lands an attack, Shadow Cripple is applied to the target for 3 seconds.\n\n^yScythe Stance^*: Physical Damage\n\n^yShadow Stance^*: Magic Damage
 
 Ability_Fade4_tooltip_flavor									My shadow is my best friend...
@@ -2559,10 +2550,6 @@ Ability_Fade4_tooltip_flavor									My shadow is my best friend...
 // State_Fade_Ability4_Stealth
 State_Fade_Ability4_Stealth_name								Reflection
 State_Fade_Ability4_Stealth_FRAME_effect						Applies Shadow Cripple upon attack
-
-// State_Fade_Ability4_MortalStrike
-State_Fade_Ability4_MortalStrike_name							Shadow Cripple
-State_Fade_Ability4_MortalStrike_FRAME_effect					{75,125,175} damage per second
 
 // Hero_Fade
 Hero_Fade_name													Fayde
@@ -2839,7 +2826,6 @@ Ability_Gauntlet2_IMPACT_effect									Fires Gauntlet's Glove 800 distance in t
 // Ability_Gauntlet3
 Ability_Gauntlet3_name											Enfeeble
 Ability_Gauntlet3_description									Gauntlet unleashes an incredible pummeling on his opponent, crippling them severely and stealing their damage.
-Ability_Gauntlet3_description2									This ability contains an ^oAttack ^oModifier^*. Attack modifiers are exclusive and do not stack with other attack modifiers.
 Ability_Gauntlet3_description_simple							Passively gains a charge every ^o{0.8,0.6,0.4,0.2} seconds^* that Gauntlet is not attacking.  Maximum ^o{20,25,30,35} charges^*.\n\nOn attacking an enemy hero, consumes all charges to slow target's Movement Speed, Attack Speed, and steal Damage by ^o1% per charge^* used.\n\nNon-hero enemies will not consume charges.
 Ability_Gauntlet3_effect_header									Enfeeble Effects
 Ability_Gauntlet3_effect_header2								Empowered Effects
@@ -4904,6 +4890,8 @@ Ability_Rampage1_description_simple								Target an enemy unit to charge toward
 Ability_Rampage1_effect_header									Stampede Effects
 Ability_Rampage1_tooltip_flavor									It's headed right for us!
 Ability_Rampage1_IMPACT_effect									Issues an order to attack the targeted Unit & sights/reveals it. Applies Stampede to self, gaining 1 charge every second.\n\nWhen Rampage is within 450 distance of his target, he will pounce on them very quickly.\n\nWhen Rampage reaches his target, he stuns and pushes back the target {140,180,220,260} units over {0.95,1.15,1.35,1.55} seconds, dealing {100,140,180,220} Physical Damage and revealing/sighting them for 2 seconds.
+Ability_Rampage1_IMPACT_effect:Alt								Issues an order to attack the targeted Unit & sights/reveals it. Applies Stampede to self, gaining 1 charge every second.\n\nWhen Rampage is within 450 distance of his target, he will pounce on them very quickly.\n\nWhen Rampage reaches his target, he stuns and pushes back the target {140,180,220,260} units over {0.95,1.15,1.35,1.55} seconds, dealing {100,140,180,220} Physical Damage and revealing/sighting them for 2 seconds.
+Ability_Rampage1_IMPACT_effect:Alt2								Issues an order to attack the targeted Unit & sights/reveals it. Applies Stampede to self, gaining 1 charge every second.\n\nWhen Rampage is within 450 distance of his target, he will pounce on them very quickly.\n\nWhen Rampage reaches his target, he stuns and pushes back the target {140,180,220,260} units over {0.95,1.15,1.35,1.55} seconds, dealing {100,140,180,220} Physical Damage and revealing/sighting them for 2 seconds.
 
 // Gadget_Rampage_Ability1
 Gadget_Rampage_Ability1_name									
@@ -5843,7 +5831,6 @@ State_Treant_Ability1_Armor_name								Nature's Protection
 Ability_Treant2_name											Animate Forest
 Ability_Treant2_description										The Keeper links his mind with nearby trees, bringing them to life.
 Ability_Treant2_description_simple								Target a tree to Animate it and an additional ^o{1,2,3,4} nearby trees^*. Trees last for ^o45 seconds^*, have 600 health and 325 movepseed.\n\nThese Animated Trees count as "Trees" for Nature's Veil and Entmoot.
-Ability_Treant2_effect_header									Status Effect
 Ability_Treant2_tooltip_flavor									THE ENTS MARCH!
 Ability_Treant2_IMPACT_effect									Target a tree to Animate it and an additional {1,2,3,4} nearby trees. Trees last for 45 seconds, have 600 health and 325 movepseed.\n\nThese Animated Trees count as "Trees" for Nature's Veil and Entmoot.
 
@@ -8340,16 +8327,6 @@ Item_Evasion_search_terms										wingbow,wingedbow,butterfly,bfly,damage,dmg,e
 Item_Evasion_effect_header										Status Effect
 Item_Evasion_shop_flavor										Bei den Wingbows handelt es sich die besten Bögen, die jemals von der Beast Horde hergestellt wurden.  Durchtränkt mit den Segnungen eines jeden der New Gods und mit einem Geruch von Ölen und einem Kräutersud versehen verleihen diese Waffen ihren Trägern erstaunliche Gewandtheit, sodass ihre Angriffe beinahe jedes Mal True Damage verursachen.
 Item_Evasion_shop_categories									Filter_Agility,Filter_Damage,Filter_AttackSpeed,Filter_Modifier
-
-// Item_WingedFamiliar
-Item_WingedFamiliar_name										Winged Courier
-Item_WingedFamiliar_description									Diese verzauberten Tragra-Affen besitzen Flügel. Winged Couriers tragen Gegenstände zum Basislager und zurück. Im Falle ihres Todes lassen sie ihren Gegenstand zu Boden fallen.
-Item_WingedFamiliar_description_simple							Verwenden das, um einen Courier zu einem Fliegendem-Corier zu befördern.
-Item_WingedFamiliar_search_terms								wingedcourier,wingcourier,wingedmonkey,wingmonkey,flyingcourier,flycourier,flyingmonkey,flymonkey,chicken,crow,ferry,essential,speedymonkey
-Item_WingedFamiliar_effect_header								Status Effect
-Item_WingedFamiliar_shop_flavor									Verzauberte Tragra-Affen durchlaufen ein jahrelanges Training der Beast Horde, ehe sie als Kuriere eingesetzt werden. Diese Winged Couriers dienen nun jedem, um Gegenstände zum Lager und zurück zu transportieren. Manche Magische Gegenstände überfordern allerdings ihre Fähigkeiten.
-Item_WingedFamiliar_shop_categories								Filter_Consumable
-Item_WingedFamiliar_IMPACT_effect								Erzeugt einen Winged Courier, der unter Deiner Kontrolle steht und Gegenstände tragen kann. \n\nWinged Couriers besitzen 150 Health, 300 Bewegungsgeschwindigkeit, 350 Sichtweite, Magische Immunität sowie eine uneingeschränkt Lebensdauer.\n\nWinged Couriers besitzen auch die Fähigkeit, ihre Bewegungsgeschwindigkeit zu erhöhen sowie eine weitere Fähigkeit, zeitweiligen Schutz vor Verletzungen zu gewähren.\n\nBefindet sich einer Deiner Kuriere neben einem Laden während Du Gegenstände kaufst, dann werden diese Gegenstände dem Kurier übergeben. Stirbt der Kurier beim Tragen von Gegenständen, lässt er diese Gegenstände zu Boden fallen.
 
 // Item_FenrirFang
 Item_FenrirFang_name											Fenrir's Fang
