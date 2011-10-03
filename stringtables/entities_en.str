@@ -576,9 +576,9 @@ State_Arachna_Ability1_FRAME_effect								{4,8,12,16} Magic Damage
 // Ability_Arachna2
 Ability_Arachna2_name											Harden Carapace
 Ability_Arachna2_description									Arachna hardens her carapace for a short duration, increasing her resistance to magical attacks.
-Ability_Arachna2_description_simple								Activate to ^oDispel debuffs on self^* and gain ^o{8,16,24,32} Magic Armor^* for 3 seconds.
+Ability_Arachna2_description_simple								Activate to ^oDispel debuffs on self^* and gain ^o{8,16,24,32} Magic Armor^* for ^o{2,3,4,5} seconds^*.
 Ability_Arachna2_effect_header									Hardened Carapace Effects
-Ability_Arachna2_IMPACT_effect									Dispels debuffs on self and applies Hardened Carapace for 3 seconds.
+Ability_Arachna2_IMPACT_effect									Dispels debuffs on self and applies Hardened Carapace for {2,3,4,5} seconds.
 
 Ability_Arachna2_tooltip_flavor									It's tough to be a widow.
 
@@ -635,14 +635,14 @@ State_Armadon_Ability1_name										Sticky Snot
 // Ability_Armadon2
 Ability_Armadon2_name											Spine Burst
 Ability_Armadon2_description									Showers the area around Armadon with quills, damaging nearby enemies. If a unit was struck by Armadon's quills recently it will take extra damage.
-Ability_Armadon2_description_simple								Activate to deal ^o{20,40,60,80} Physical Damage^* to nearby enemies. An additional ^o30 bonus Physical Damage^* is dealt for every cast of Spine Burst received in the last 13 seconds. Stacks up to 6 times.
+Ability_Armadon2_description_simple								Activate to deal ^o{20,40,60,80} Physical Damage^* to nearby enemies. An additional ^o25 bonus Physical Damage^* is dealt for every cast of Spine Burst received in the last 13 seconds. Stacks up to 6 times.
 Ability_Armadon2_effect_header									Spine Vulnerability
 Ability_Armadon2_IMPACT_effect									Deals {20,40,60,80} Physical Damage and applies Spine Vulnerability to enemies in radius for 13 seconds. Adds one charge. Maximum of 6 charges.
 Ability_Armadon2_tooltip_flavor									AwwChoo!
 
 // State_Armadon_Ability2
 State_Armadon_Ability2_name										Spine Burst
-State_Armadon_Ability2_FRAME_effect								30 Physical Damage per charge
+State_Armadon_Ability2_FRAME_effect								25 Physical Damage per charge
 
 // Ability_Armadon3
 Ability_Armadon3_name											Armordillo
@@ -654,9 +654,9 @@ Ability_Armadon3_tooltip_flavor									Impenetrable!
 // Ability_Armadon4
 Ability_Armadon4_name											Restless
 Ability_Armadon4_description									Armadon temporarily increases his Movement Speed and attack damage for every spell he casts.
-Ability_Armadon4_description_simple								Passively applies ^o{10,20,30} Attack Damage^* and ^o{4,5,7}% Movement Speed^* for ^o10 seconds^* on spell cast.\n\nThis effect stacks with itself.
+Ability_Armadon4_description_simple								Passively increases Spine Bursts additional damage by ^o{5,10,15}^* and applies ^o{10,20,30} Attack Damage^* and ^o{4,5,7}% Movement Speed^* for ^o10 seconds^* on spell cast.\n\nThis effect stacks with itself.
 Ability_Armadon4_effect_header									Restless
-Ability_Armadon4_ABILITY_IMPACT_effect							Applies Restless to self for 10 seconds. Adds one charge.
+Ability_Armadon4_ABILITY_IMPACT_effect							Spine Burst damage increase {5,10,15}. Applies Restless to self for 10 seconds. Adds one charge.
 Ability_Armadon4_tooltip_flavor									Give me, give me caffeine!
 
 // State_Armadon_Ability4
@@ -742,9 +742,9 @@ Hero_BabaYaga_role												One of the most mobile heroes thanks to Flash of D
 // Ability_Behemoth1
 Ability_Behemoth1_name											Fissure
 Ability_Behemoth1_description									With a mighty slam of his tree trunk, the Behemoth rips the earth apart, damaging and stunning enemies in front of him and leaving an impassable mound of terrain.
-Ability_Behemoth1_description_simple							Target a location or unit to create an impassible wall extending in that direction which deals ^o{125,175,225,275} Magic Damage^* and applies a ^o{1,1.25,1.5,1.75} second Stun^* to enemy units it hits.\n\nWall lasts for 8 seconds.
+Ability_Behemoth1_description_simple							Target a location or unit to create an impassible wall extending in that direction which deals ^o{125,175,225,275} Magic Damage^* and applies a ^o{1,1.25,1.5,1.75} second Stun^* to enemy units it hits.\n\nWall lasts for ^o{5,6,7,8}^* seconds.
 Ability_Behemoth1_effect_header									Status Effect
-Ability_Behemoth1_IMPACT_effect									Deals {125,175,225,275} Magic Damage to each target in a line and stuns them for {1,1.25,1.5,1.75} second(s). Leaves impassable mound of terrain for 8 seconds.
+Ability_Behemoth1_IMPACT_effect									Deals {125,175,225,275} Magic Damage to each target in a line and stuns them for {1,1.25,1.5,1.75} second(s). Leaves impassable mound of terrain for {5,6,7,8} seconds.
 Ability_Behemoth1_tooltip_flavor								Here's the line and you crossed it!
 
 // Gadget_Behemoth_Ability1
@@ -1468,6 +1468,7 @@ Ability_Cthulhuphant1_effect_header
 Ability_Cthulhuphant1_effect_header2							
 Ability_Cthulhuphant1_tooltip_flavor							I'm a pool shark...
 Ability_Cthulhuphant1_IMPACT_effect								Target a location to charge ^o800 units^* in that direction. Enemies trampled suffer ^o{60,120,180,240} Magic Damage and a {1.5,1.75,2,2.25} second Stun^*. In addition, non-hero units will be shot forward by Cthulhuphant, acting as projectiles that deal ^o{10,15,20,25} Magic Damage and a 1 second Stun^* to the first enemy hero hit.
+Ability_Cthulhuphant1_IMPACT_effect:Alt							Target a location to charge ^o800 units^* in that direction. Enemies trampled suffer ^o{60,120,180,240} Magic Damage and a {1.5,1.75,2,2.25} second Stun^*. In addition, non-hero units will be shot forward by Cthulhuphant, acting as projectiles that deal ^o{10,15,20,25} Magic Damage and a 1 second Stun^* to the first enemy hero hit.
 
 // State_Cthulhuphant_Ability1
 State_Cthulhuphant_Ability1_name								
@@ -1496,7 +1497,7 @@ Ability_Cthulhuphant2_IMPACT_effect								Target an enemy unit to ^oinstantly k
 
 // State_Cthulhuphant_Ability2
 State_Cthulhuphant_Ability2_name								Bodyshielded
-State_Cthulhuphant_Ability2_description							Carrying around a creep corpse which absorbs 60% of pre-mitiation damage to Cthulhuphant's front.
+State_Cthulhuphant_Ability2_description							Carrying around a creep corpse which absorbs {30,40,50,60}% of pre-mitiation damage to Cthulhuphant's front.
 State_Cthulhuphant_Ability2_description2						
 State_Cthulhuphant_Ability2_description_simple					
 State_Cthulhuphant_Ability2_ATTACKED_DAMAGE_EVENT_effect		
@@ -1541,8 +1542,8 @@ Ability_Cthulhuphant4_tooltip_flavor
 Ability_Cthulhuphant4_IMPACT_effect								Activate to shoot ^o5 beams^* in front of Cthulhuphant, once every second. Each beam deals ^o{80,140,200} Magic Damage^* to enemies hit.
 
 // State_Cthulhuphant_Ability4
-State_Cthulhuphant_Ability4_name								
-State_Cthulhuphant_Ability4_description							
+State_Cthulhuphant_Ability4_name								Obliterate
+State_Cthulhuphant_Ability4_description							You are obliterating things!!
 State_Cthulhuphant_Ability4_description2						
 State_Cthulhuphant_Ability4_description_simple					
 State_Cthulhuphant_Ability4_IMPACT_effect						
@@ -1869,7 +1870,7 @@ State_DiseasedRider_Ability1_name								Infected
 // Ability_DiseasedRider2
 Ability_DiseasedRider2_name										Cursed Shield
 Ability_DiseasedRider2_description								Places a Cursed Shield on an ally, granting them increased Armor and causing any melee enemy who attack them to become infected for 2 seconds.
-Ability_DiseasedRider2_description_simple						Target an allied unit to grant them ^o{3,6,9,12} Armor^* for 40 seconds. If a Melee hero attacks an armored target, ^o-30% Movement Speed and -20 Attack Speed^* is applied to them for 2 seconds.
+Ability_DiseasedRider2_description_simple						Target an allied unit to grant them ^o{2,4,6,8} Armor^* for 40 seconds. If an enemy hero attacks an armored target, ^o-20 Attack Speed^* is applied to them for 2 seconds.
 Ability_DiseasedRider2_effect_header							Cursed Shield Effects
 Ability_DiseasedRider2_effect_header2							Infected Effects
 Ability_DiseasedRider2_IMPACT_effect							Applies Cursed Shield to target for 40 seconds.
@@ -1935,11 +1936,11 @@ State_Rhapsody_Ability1_Target_INFLICT_effect
 Ability_Rhapsody2_name											Disco Inferno
 Ability_Rhapsody2_description									Rhapsody creates an epic dance floor upon which enemies and allies alike are inclined to jive.
 Ability_Rhapsody2_description2										
-Ability_Rhapsody2_description_simple							Target a location to create a dance floor for ^o6 seconds^*. Enemies on the dance floor who stop moving take ^o{20,40,60,80} Magic Damage per second^* and allies who stop moving heal ^g{10,20,30,40} Health per second^*.
+Ability_Rhapsody2_description_simple							Target a location to create a dance floor for ^o6 seconds^*. Enemies on the dance floor who stop moving take ^o{20,40,60,80} Magic Damage per second^* and allies who stop moving heal ^g{10,20,30,40} Health per second^*. Creeps take half damage.
 Ability_Rhapsody2_effect_header										
 Ability_Rhapsody2_effect_header2									
 Ability_Rhapsody2_tooltip_flavor								STOP! Hammer time.
-Ability_Rhapsody2_IMPACT_effect									Creates a dance floor with 400 radius at target location for 6 seconds.\n\nEnemies who stop moving on the dance floor take {20,40,60,80} Magic Damage per second, with a .5 second linger time.\n\nAllies who stop moving on the dance floor heal {10,20,30,40} Health per second, with a .5 second linger time.
+Ability_Rhapsody2_IMPACT_effect									Creates a dance floor with 400 radius at target location for 6 seconds.\n\nEnemies who stop moving on the dance floor take {20,40,60,80} Magic Damage per second, with a .5 second linger time.\n\nAllies who stop moving on the dance floor heal {10,20,30,40} Health per second, with a .5 second linger time. Creeps take half damage.
 
 // Gadget_Rhapsody_Ability2
 Gadget_Rhapsody_Ability2_name										
@@ -2110,6 +2111,7 @@ Ability_DrunkenMaster3_effect_header2
 Ability_DrunkenMaster3_tooltip_flavor							Dear chap, I might be a wee bit inebriated.
 Ability_DrunkenMaster3_description_simple						Target a location to stagger there, following ^opathing^*, and deal ^o{40,80,120,160} Physical Damage^* at the end of the movement. Disjoints on use.\n\n^255With 2 Drunk charges^*:\nGrants ^o{20,40,60,80} Movement Speed and Attack Damage for 4 seconds^*
 Ability_DrunkenMaster3_IMPACT_effect							Target a location to stagger there, following pathing, and deal {40,80,120,160} Physical Damage at the end of the movement. Disjoints on use.\n\nWith 2 Drunk charges:\nGrants {20,40,60,80} Movement Speed and Attack Damage for 4 seconds
+Ability_DrunkenMaster3_IMPACT_effect:Alt						Target a location to stagger there, following pathing, and deal {40,80,120,160} Physical Damage at the end of the movement. Disjoints on use.\n\nWith 2 Drunk charges:\nGrants {20,40,60,80} Movement Speed and Attack Damage for 4 seconds
 
 // State_Drunkenmaster_Ability3_Buff
 State_Drunkenmaster_Ability3_Buff_name							Staggerin'
@@ -2518,7 +2520,7 @@ Ability_Fade1_tooltip_flavor									I need my personal space.
 // Ability_Fade2
 Ability_Fade2_name												Burning Shadows
 Ability_Fade2_description										Fayde summons a wave of darkness, causing the shadows of enemy heroes hit to turn against them for a short time. Shadows grant 200 day and night clearvision while alive.
-Ability_Fade2_description_simple								Target a position to create mirror images of affected enemy heroes. Images deal ^o{70,140,210,280} damage to their owners. ^oStuns for {1,1.5,2,2.5} seconds^*.
+Ability_Fade2_description_simple								Target a position to create mirror images of affected enemy heroes. Images deal ^o{70,140,210,280} damage to their owners. ^oStuns for {1.6,1.9,2.2,2.5} seconds^*.
 Ability_Fade2_IMPACT_effect										Creates Burning Shadows for 800 units in the target direction. Any enemy heroes hit will have a Shadow Copy of themselves created.\n\nThe Shadow Copy is uncontrollable, invulnerable, has max Movement Speed, and attacks only the target. The Shadow Copy will deal {70,140,210,280} Magic  to it's owner over {1,2,3,4} attacks. All enemy heroes hit are stunned for {1,1.5,2,2.5} seconds
 
 Ability_Fade2_tooltip_flavor									The darkness can put you beside yourself...
@@ -2539,9 +2541,9 @@ State_Fade_Ability3_name										Shadow Stance
 // Ability_Fade4
 Ability_Fade4_name												Reflection
 Ability_Fade4_description										Fayde becomes one with the shadows, going stealth for a short time. When Fayde attacks from stealth she cripples the enemy, dealing heavy damage over a few seconds.
-Ability_Fade4_description_simple								Activate to become ^oInvisible for {20,35,50} seconds^*.\n\nWhile invisible, you gain Treewalking, Unitwalking, and Clearvision.\n\nYour first attack out of Invisibility inflicts ^o{225,375,525} Magic Damage^* over 2 seconds.
+Ability_Fade4_description_simple								Activate to become ^oInvisible for {20,35,50} seconds^*.\n\nWhile invisible, you gain Treewalking, Unitwalking, and ^o{800,1000,1200} Clearvision^*.\n\nYour first attack out of Invisibility inflicts ^o{225,375,525} Magic Damage^* over 2 seconds.
 Ability_Fade4_effect_header										Reflection Effects
-Ability_Fade4_IMPACT_effect										Applies Reflection to Fayde for {20,35,50} seconds.\n\nWhile invisible, you gain Treewalking, Unitwalking, and Clearvision.\n\nYour first attack out of Invisibility inflicts {225,375,525} Magic Damage over 2 seconds.
+Ability_Fade4_IMPACT_effect										Applies Reflection to Fayde for {20,35,50} seconds.\n\nWhile invisible, you gain Treewalking, Unitwalking, and {800,1000,1200} Clearvision.\n\nYour first attack out of Invisibility inflicts {225,375,525} Magic Damage over 2 seconds.
 
 Ability_Fade4_tooltip_flavor									My shadow is my best friend...
 
@@ -2718,13 +2720,13 @@ Pet_ForsakenArcher_Ability3_SPAWN_effect
 
 // Ability_ForsakenArcher4
 Ability_ForsakenArcher4_name									Piercing Arrows
-Ability_ForsakenArcher4_description								Fueled by the rage in her heart, the Forsaken Archer fires Piercing Arrows that fly straight through her target, striking any other enemies in its path behind them before it finally dissipates.
-Ability_ForsakenArcher4_description_simple						Target a location to begin channeling and shooting 2 arrows a second for 4 seconds.\n\nEach arrow deals up to ^o{75,150,225} Magic Damage^*.
+Ability_ForsakenArcher4_description								Fueled by the rage in her heart, the Forsaken Archer projects an image that fires Piercing Arrows that fly straight through her target, striking any other enemies in its path behind them before it finally dissipates.
+Ability_ForsakenArcher4_description_simple						Target a location to create an illusion that channels and shoots 2 arrows a second for 4 seconds.\n\nEach arrow deals up to ^o{75,150,225} Magic Damage^*.
 Ability_ForsakenArcher4_description2							
 Ability_ForsakenArcher4_effect_header							
 Ability_ForsakenArcher4_effect_header2							
 Ability_ForsakenArcher4_tooltip_flavor							If I must die, then you will as well!
-Ability_ForsakenArcher4_IMPACT_effect							Shoots a Piercing Arrow every .5 seconds that travels 1300 units at 1150 speed. Any enemy hit takes {75,150,225} Magic Damage per arrow. Any enemies behind the first have the damage reduced by 10% per target hit.\n\nWhile channel is active, any skeletal minions will automatically attack enemies within a 600 radius of self.
+Ability_ForsakenArcher4_IMPACT_effect							Creates an illusion of Forsaken Archer that shoots a Piercing Arrow every .5 seconds that travels 1300 units at 1150 speed. Any enemy hit takes {75,125,175} Magic Damage per arrow. Any enemies behind the first have the damage reduced by 10% per target hit.\n\nWhile channel is active, any skeletal minions will automatically attack enemies within a 600 radius of self.
 Ability_ForsakenArcher4_CHANNEL_START_effect					
 
 // State_ForsakenArcher_Ability4
@@ -2964,10 +2966,10 @@ Ability_Hammerstorm1_tooltip_flavor								Olympics, here I come!
 // Ability_Hammerstorm2
 Ability_Hammerstorm2_name										Mighty Swing
 Ability_Hammerstorm2_description								Hammerstorm attacks with great might, causing his attacks to damage nearby enemies in addition to his main target.
-Ability_Hammerstorm2_description_simple							Passively applies ^o{12.5,25,37.5,50}% Splash^* to your attacks.
+Ability_Hammerstorm2_description_simple							Passively applies ^o{15,30,45,60}% Splash^* to your attacks.
 Ability_Hammerstorm2_effect_header								Status Effect
 Ability_Hammerstorm2_IMPACT_effect								On use, toggles Mighty Swing off.
-Ability_Hammerstorm2_ATTACK_IMPACT_effect						Applies {12.5,25,37.5,50}% splash damage in a radius of 350
+Ability_Hammerstorm2_ATTACK_IMPACT_effect						Applies {15,30,45,60}% splash damage in a radius
 Ability_Hammerstorm2_tooltip_flavor								I'll take you all on.
 Ability_Hammerstorm2_IMPACT_effect:hammerstormcleavetoggle		On use, toggles Mighty Swing on.
 Ability_Hammerstorm2_name:hammerstormcleavetoggle				Mighty Swing (Off)
@@ -3068,7 +3070,7 @@ State_Hellbringer_Ability1_name									Unholy Shackles
 // Ability_Hellbringer2
 Ability_Hellbringer2_name										Death Boil
 Ability_Hellbringer2_description								Hellbringer inflicts a target enemy and those nearby him with a disease that causes their very insides to boil, dealing increasing damage over time.
-Ability_Hellbringer2_description_simple							Target an enemy unit to deal ^o{150,210,280,360} Magic Damage over {5,6,7,8} seconds^*. Chains to ^o{0,1,2,3}^* additional nearby enemy units when cast.
+Ability_Hellbringer2_description_simple							Target an enemy unit to deal ^o{125,180,245,320} Magic Damage over {5,6,7,8} seconds^*. Chains to ^o{0,1,2,3}^* additional nearby enemy units when cast.
 Ability_Hellbringer2_effect_header								Death Boil Effects
 Ability_Hellbringer2_IMPACT_effect								Applies Death Boil to {1,2,3,4} target(s) for {5,6,7,8} seconds.
 Ability_Hellbringer2_tooltip_flavor								The 11th plague!
@@ -3263,8 +3265,8 @@ State_Hunter_Ability1_Buff_name									Blood Crazy
 // Ability_Hunter2
 Ability_Hunter2_name											Feast
 Ability_Hunter2_description										The Blood Hunter feasts on the flesh of every kill he makes, healing him based on the victim's maximum Health.
-Ability_Hunter2_description_simple								Passively heals Blood Hunter each time he kills a unit. Each kill heals you for ^o{10,15,20,25}% of their max health; {10,20,30,40}% if the enemy is a hero^*.
-Ability_Hunter2_description2									Heals for {10,15,20,25}% for non-Hero victims.\n\nLeaves a lingering debuff on enemy heroes for 1.5 seconds, if they die in that time they heal the Blood Hunter for {10,20,30,40}% of the Hero's maximum Health.
+Ability_Hunter2_description_simple								Passively heals Blood Hunter each time he kills a unit. Each kill heals you for ^o{10,15,20,25}% of their max health; {15,30,45,60}% if the enemy is a hero^*.
+Ability_Hunter2_description2									Heals for {10,15,20,25}% for non-Hero victims.\n\nLeaves a lingering debuff on enemy heroes for 1.5 seconds, if they die in that time they heal the Blood Hunter for {15,30,45,60}% of the Hero's maximum Health.
 Ability_Hunter2_effect_header									Status Effect
 Ability_Hunter2_tooltip_flavor									You're not using the Health.
 
@@ -4888,6 +4890,8 @@ Ability_Rampage1_description_simple								Target an enemy unit to charge toward
 Ability_Rampage1_effect_header									Stampede Effects
 Ability_Rampage1_tooltip_flavor									It's headed right for us!
 Ability_Rampage1_IMPACT_effect									Issues an order to attack the targeted Unit & sights/reveals it. Applies Stampede to self, gaining 1 charge every second.\n\nWhen Rampage is within 450 distance of his target, he will pounce on them very quickly.\n\nWhen Rampage reaches his target, he stuns and pushes back the target {140,180,220,260} units over {0.95,1.15,1.35,1.55} seconds, dealing {100,140,180,220} Physical Damage and revealing/sighting them for 2 seconds.
+Ability_Rampage1_IMPACT_effect:Alt								Issues an order to attack the targeted Unit & sights/reveals it. Applies Stampede to self, gaining 1 charge every second.\n\nWhen Rampage is within 450 distance of his target, he will pounce on them very quickly.\n\nWhen Rampage reaches his target, he stuns and pushes back the target {140,180,220,260} units over {0.95,1.15,1.35,1.55} seconds, dealing {100,140,180,220} Physical Damage and revealing/sighting them for 2 seconds.
+Ability_Rampage1_IMPACT_effect:Alt2								Issues an order to attack the targeted Unit & sights/reveals it. Applies Stampede to self, gaining 1 charge every second.\n\nWhen Rampage is within 450 distance of his target, he will pounce on them very quickly.\n\nWhen Rampage reaches his target, he stuns and pushes back the target {140,180,220,260} units over {0.95,1.15,1.35,1.55} seconds, dealing {100,140,180,220} Physical Damage and revealing/sighting them for 2 seconds.
 
 // Gadget_Rampage_Ability1
 Gadget_Rampage_Ability1_name									
@@ -5058,7 +5062,7 @@ Hero_Rocky_role													Pebbles holds incredible power because he reaches hi
 // Ability_SandWraith1
 Ability_SandWraith1_name										Desert's Curse
 Ability_SandWraith1_description									The Sand Wraith calls upon the endless Desert's Curse, covering the ground ahead of him with sand. Enemies caught in the sand are slowed while the Sand Wraith can move faster and is unhindered by cliffs or trees.
-Ability_SandWraith1_description_simple							Target a location or unit to shoot a line of Sand dealing ^o{50,100,150,200} Magic Damage^* to anyone hit.\n\nEnemies that are hit or walk through the Sand take ^o{-5,-9,-14,-18}% Movement Speed^* for at least 3 seconds.\n\nWhile on Sand or for 3 seconds after leaving Sand, you may ^owalk across any terrain^*.
+Ability_SandWraith1_description_simple							Target a location or unit to shoot a line of Sand dealing ^o{50,100,150,200} Magic Damage^* to anyone hit.\n\nEnemies that are hit or walk through the Sand take ^o{-8,-12,-16,-20}% Movement Speed^* for at least 3 seconds.\n\nWhile on Sand or for 3 seconds after leaving Sand, you may ^owalk across any terrain^*.
 Ability_SandWraith1_effect_header								Familiar Ground
 Ability_SandWraith1_effect_header2								Desert's Curse
 Ability_SandWraith1_IMPACT_effect								Throws the Desert's Curse at target enemy or position up to 2000 units away. Enemies that are hit take {50,100,150,200} Magic Damage.\n\nApplies Familiar Ground to the Sand Wraith while on the sand and up to 3 seconds outside of it. Applies Desert's Curse to enemies while in the sand and up to 3 seconds outside of it.
@@ -5088,9 +5092,9 @@ Ability_SandWraith3_tooltip_flavor								You'll need a vacuum to get to me!
 // Ability_SandWraith4
 Ability_SandWraith4_name										Mirage
 Ability_SandWraith4_description									The Sand Wraith tricks the mind, causing an illusion of himself to appear next to all enemy heroes and attack them. At any moment he wishes, the Sand Wraith can take the place of one of those illusions.								
-Ability_SandWraith4_description_simple							Activate to spawn an illusion of yourself next to all enemy heroes on the map. Illusions last for ^o{5,6,7} seconds^*.\n\nYou may activate this spell again and target a location to teleport to your nearest illusion, taking its place.
+Ability_SandWraith4_description_simple							Activate to spawn an illusion of yourself next to all enemy heroes on the map. Illusions last for ^o{4,4.5,5} seconds^*.\n\nYou may activate this spell again and target a location to teleport to your nearest illusion, taking its place.
 Ability_SandWraith4_description_simple:SandWraith4_Active		Target a location to take the place of the nearest illusion.
-Ability_SandWraith4_IMPACT_effect								Spawns an illusion of the Sand Wraith next to every enemy hero for {5,6,7} seconds. Illusions are uncontrollable and only attack the enemy hero they spawn next to.\n\nMirage is replaced by Manifest for the duration. Using Manifest will cause Sand Wraith to instantly take the place of the closest illusion from where the skill is cast.
+Ability_SandWraith4_IMPACT_effect								Spawns an illusion of the Sand Wraith next to every enemy hero for {4,4.5,5} seconds. Illusions are uncontrollable and only attack the enemy hero they spawn next to.\n\nMirage is replaced by Manifest for the duration. Using Manifest will cause Sand Wraith to instantly take the place of the closest illusion from where the skill is cast.
 Ability_SandWraith4_name:SandWraith4_Active						Manifest
 Ability_SandWraith4_description:SandWraith4_Active				The Sand Wraith can take the place of any illusion spawned by Mirage.
 Ability_SandWraith4_IMPACT_effect:SandWraith4_Active			Takes the place of the illusion nearest the targeted location.
@@ -5264,8 +5268,8 @@ Ability_Geomancer3_IMPACT_effect								For the next 5 seconds, target will be f
 // Ability_Geomancer4
 Ability_Geomancer4_name											Crystal Field
 Ability_Geomancer4_description									Generate a rapidly growing crystal field, damaging and stunning enemies within it after a delay.
-Ability_Geomancer4_description_simple							Create a rapidly growing crystal field, inflicting ^o{2,2.5,3} seconds stun^* and ^o{250,350,450} Magic Damage^* after a 3 second delay.
-Ability_Geomancer4_IMPACT_effect								After 3 seconds, the field explodes, dealing {250,350,450} Magic Damage and {2,2.5,3} seconds stun.
+Ability_Geomancer4_description_simple							Create a rapidly growing crystal field, inflicting ^o{2,2.5,3} seconds stun^* and ^o{300,450,600} Magic Damage^* after a 3 second delay.
+Ability_Geomancer4_IMPACT_effect								After 3 seconds, the field explodes, dealing {300,450,600} Magic Damage and {2,2.5,3} seconds stun.
 
 // State_Geomancer_Ability2_Debuff
 State_Geomancer_Ability2_Debuff_name							Quicksand
@@ -6418,7 +6422,7 @@ Hero_Xalynx_role												The Torturer is a spell-based damage dealer best pos
 
 // Ability_Bear1
 Ability_Bear1_name												Return
-Ability_Bear1_description										Teleports Booboo to Wildsoul's location.
+Ability_Bear1_description										Teleports Booboo to Wildsoul's location. Cool down of 3 seconds is applied to Return if damaged by a player controlled unit.
 Ability_Bear1_description_simple								Activate to ^oteleport Booboo to Wildsoul's location^*.
 Ability_Bear1_effect_header										Status Effect
 
@@ -6520,17 +6524,17 @@ Hero_Yogi_role													Wildsoul is effective in both the lane and the jungle
 Ability_Revenant1_name												Defile
 Ability_Revenant1_description										Enchants target's next two attacks to slow and deal bonus damage.
 Ability_Revenant1_description2									
-Ability_Revenant1_description_simple								Target yourself or an ally to add a bonus ^o{40,70,100,130} Magic Damage^* to their next 2 attacks.  Enemies affected also receive a ^ostacking 20%, 3 second Movement Speed Slow^*.\n\nBuff lasts 5 seconds.
-Ability_Revenant1_description_simple:Revenant_Ability4_1			Target yourself or an ally to add a bonus ^o{40,70,100,130} Magic Damage^* to their next 2 attacks.  Enemies affected also receive a ^ostacking 20%, 3 second Movement Speed Slow^*.\n\nBuff lasts 5 seconds.
-Ability_Revenant1_description_simple:Revenant_Ability4_2			Target yourself or an ally to add a bonus ^o{40,70,100,130} Magic Damage^* to their next 2 attacks.  Enemies affected also receive a ^ostacking 20%, 3 second Movement Speed Slow^*.\n\nBuff lasts 5 seconds.
-Ability_Revenant1_description_simple:Revenant_Ability4_3			Target yourself or an ally to add a bonus ^o{40,70,100,130} Magic Damage^* to their next 2 attacks.  Enemies affected also receive a ^ostacking 20%, 3 second Movement Speed Slow^*.\n\nBuff lasts 5 seconds.
+Ability_Revenant1_description_simple								Target yourself or an ally to add a bonus ^o{40,70,100,130} Magic Damage^* to their next 2 attacks.  Enemies affected also receive a ^ostacking 20%, 3 second Movement Speed Slow^*.\n\nBuff lasts 5 seconds per attack.
+Ability_Revenant1_description_simple:Revenant_Ability4_1			Target yourself or an ally to add a bonus ^o{40,70,100,130} Magic Damage^* to their next 2 attacks.  Enemies affected also receive a ^ostacking 20%, 3 second Movement Speed Slow^*.\n\nBuff lasts 5 seconds per attack.
+Ability_Revenant1_description_simple:Revenant_Ability4_2			Target yourself or an ally to add a bonus ^o{40,70,100,130} Magic Damage^* to their next 2 attacks.  Enemies affected also receive a ^ostacking 20%, 3 second Movement Speed Slow^*.\n\nBuff lasts 5 seconds per attack.
+Ability_Revenant1_description_simple:Revenant_Ability4_3			Target yourself or an ally to add a bonus ^o{40,70,100,130} Magic Damage^* to their next 2 attacks.  Enemies affected also receive a ^ostacking 20%, 3 second Movement Speed Slow^*.\n\nBuff lasts 5 seconds per attack.
 Ability_Revenant1_effect_header								
 Ability_Revenant1_effect_header2								
 Ability_Revenant1_tooltip_flavor								
-Ability_Revenant1_IMPACT_effect										Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
-Ability_Revenant1_IMPACT_effect:Revenant_Ability4_1					Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
-Ability_Revenant1_IMPACT_effect:Revenant_Ability4_2					Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
-Ability_Revenant1_IMPACT_effect:Revenant_Ability4_3					Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds
+Ability_Revenant1_IMPACT_effect										Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds per attack
+Ability_Revenant1_IMPACT_effect:Revenant_Ability4_1					Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds per attack
+Ability_Revenant1_IMPACT_effect:Revenant_Ability4_2					Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds per attack
+Ability_Revenant1_IMPACT_effect:Revenant_Ability4_3					Target's next 2 attacks deal bonus {40,70,100,130} Magic Damage.\n\nEnemies affected also receive a stacking 20%, 3 second slow.\n\nBuff lasts 5 seconds per attack
 
 // State_Revenant_Ability1
 State_Revenant_Ability1_name										Defile
