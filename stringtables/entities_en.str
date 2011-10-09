@@ -908,7 +908,7 @@ Ability_Bombardier1_description_simple:bombardier_bombout_1		Activate to detonat
 Ability_Bombardier1_effect_header								
 Ability_Bombardier1_effect_header2								
 Ability_Bombardier1_tooltip_flavor								Someone set up us the bomb!
-Ability_Bombardier1_IMPACT_effect								Throws a Sticky Bomb that has a search radius of 100 for attachment and attaches to either target unit (if it is within 100 radius upon impacting) or target position.\n\nThe Sticky Bomb may be detonated manually dealing {75,150,225,300} damage in a 250 radius.  Otherwise the Sticky Bomb then starts ticking for 8 seconds, increasing its original damage by 10% and adding 0.5 seconds of stun every 2 seconds.
+Ability_Bombardier1_IMPACT_effect								Throws a Sticky Bomb that has a search radius of 100 for attachment and attaches to either target unit (if it is within 100 radius upon impacting) or target position.\n\nThe Sticky Bomb may be detonated manually dealing {75,150,225,300} Magic damage in a 250 radius.  Otherwise the Sticky Bomb then starts ticking for 8 seconds, increasing its original damage by 10% and adding 0.5 seconds of stun every 2 seconds.
 Ability_Bombardier1_IMPACT_effect:bombardier_bombout_1			Instantly detonates the sticky bomb for {75,150,225,300} Magic Damage in a 250 radius.  Each charge increases the damage done by 10% and adds 0.5 seconds of stun. The bomb can be killed by 2 attacks.
 
 // Gadget_Bombardier_Ability1
@@ -952,7 +952,7 @@ Ability_Bombardier2_description_simple							Target a location to rain down cann
 Ability_Bombardier2_effect_header								
 Ability_Bombardier2_effect_header2								
 Ability_Bombardier2_tooltip_flavor								Like dodgeball, only deadlier - Bombardment!
-Ability_Bombardier2_IMPACT_effect								Bombards a 250 radius with five waves of cannonballs dealing {20,30,40,50} damage per hit over 2 seconds slowing anyone in the radius by {40,50,60,70}% that decreases to 0% over 1 second.
+Ability_Bombardier2_IMPACT_effect								Bombards a 250 radius with five waves of cannonballs dealing {20,30,40,50} Magic damage per hit over 2 seconds slowing anyone in the radius by {40,50,60,70}% that decreases to 0% over 1 second.
 
 // State_Bombardier_Ability2
 State_Bombardier_Ability2_name									Bombardment
@@ -2347,7 +2347,7 @@ Ability_Electrician4_effect_header2								Shocked Effects
 Ability_Electrician4_IMPACT_effect								Removes debuffs from target allied unit, or removes buffs from target enemy unit. Applies Cleansed to allies or Shocked to enemies for 5 seconds.\n\nDeals {600,800,1000} True damage to summoned units.
 Ability_Electrician4_name:ult_boost								Cleansing Storm (^gBoosted^*)
 Ability_Electrician4_description2:ult_boost						This ability has been boosted by Staff of the Master.\n\n^gShocks self and the target at the same time.^*
-Ability_Electrician4_IMPACT_effect:ult_boost					Removes debuffs from target allied unit, or removes buffs from target enemy unit. Applies Cleansed to allies or Shocked to enemies for 5 seconds.\n\nOn use, instantly removes debuffs on self and applies Clensed to self for 5 seconds.\n\nDeals {600,800,1000} damage to summoned units.
+Ability_Electrician4_IMPACT_effect:ult_boost					Removes debuffs from target allied unit, or removes buffs from target enemy unit. Applies Cleansed to allies or Shocked to enemies for 5 seconds.\n\nOn use, instantly removes debuffs on self and applies Clensed to self for 5 seconds.\n\nDeals {600,800,1000} True Damage to summoned units.
 
 Ability_Electrician4_tooltip_flavor								Don't taze me bro'
 
@@ -2520,8 +2520,8 @@ Ability_Fade1_tooltip_flavor									I need my personal space.
 // Ability_Fade2
 Ability_Fade2_name												Burning Shadows
 Ability_Fade2_description										Fayde summons a wave of darkness, causing the shadows of enemy heroes hit to turn against them for a short time. Shadows grant 200 day and night clearvision while alive.
-Ability_Fade2_description_simple								Target a position to create mirror images of affected enemy heroes. Images deal ^o{70,140,210,280} damage to their owners. ^oStuns for {1.6,1.9,2.2,2.5} seconds^*.
-Ability_Fade2_IMPACT_effect										Creates Burning Shadows for 800 units in the target direction. Any enemy heroes hit will have a Shadow Copy of themselves created.\n\nThe Shadow Copy is uncontrollable, invulnerable, has max Movement Speed, and attacks only the target. The Shadow Copy will deal {70,140,210,280} Magic  to it's owner over {1,2,3,4} attacks. All enemy heroes hit are stunned for {1,1.5,2,2.5} seconds
+Ability_Fade2_description_simple								Target a position to create mirror images of affected enemy heroes. Images deal ^o{70,140,210,280} Magic Damage to their owners. ^oStuns for {1.6,1.9,2.2,2.5} seconds^*.
+Ability_Fade2_IMPACT_effect										Creates Burning Shadows for 800 units in the target direction. Any enemy heroes hit will have a Shadow Copy of themselves created.\n\nThe Shadow Copy is uncontrollable, invulnerable, has max Movement Speed, and attacks only the target. The Shadow Copy will deal {70,140,210,280} Magic Damage to its owner over {1,2,3,4} attacks. All enemy heroes hit are stunned for {1,1.5,2,2.5} seconds
 
 Ability_Fade2_tooltip_flavor									The darkness can put you beside yourself...
 
@@ -4132,6 +4132,88 @@ Hero_Midas_name													Midas
 Hero_Midas_description											The tale of Auric of the deserts is perhaps a shrewd allegory to the fall of man. A wise and knowledgeable researcher, he had devoted his life's work to perfecting the ancient art of alchemy. However, upon discovering the vaunted power of transmutation, his lust for knowledge turned to greed, and within the span of a few mad days all around him was transformed to gold. Realizing what he had done, he gave an anguished cry and set out to atone for his sins.
 Hero_Midas_role													Midas is a support caster capable of dealing damage and disabling on a mass scale. His three basic abilities are all skillshots, and while each hold incredible damage potential, with Transmute they combine into a powerful disable, making Midas indispensable for team fights.
 
+// Ability_1
+Ability_Monarch1_name											Crippling Pollen
+Ability_Monarch1_description									Monarch assails target enemy's eyes with crippling pollen, causing it to be temporarily immobilized and silenced.
+Ability_Monarch1_description2									
+Ability_Monarch1_description_simple								Target an enemy unit to apply a ^oMini-stun^* and Crippling Pollen to it for ^o{1.5,2,2.5,3} seconds^*. Crippling Pollen Immobilizes and Silences the target, and deals ^o50 Magic Damage per second^*.
+Ability_Monarch1_effect_header									
+Ability_Monarch1_effect_header2									
+Ability_Monarch1_tooltip_flavor									Right in yo eye
+Ability_Monarch1_IMPACT_effect									Target an enemy unit to apply a ^oMini-stun^* and Crippling Pollen to it for ^o{1.5,2,2.5,3} seconds^*. Crippling Pollen Immobilizes and Silences the target, and deals ^o50 Magic Damage per second^*.
+
+// State_Monarch_Ability1
+State_Monarch_Ability1_name										Crippling Pollen
+State_Monarch_Ability1_description								Silenced and Immobilized
+State_Monarch_Ability1_description2								
+State_Monarch_Ability1_description_simple						
+State_Monarch_Ability1_FRAME_effect								
+
+// Ability_Monarch2
+Ability_Monarch2_name											Chrysalis
+Ability_Monarch2_description									Monarch encases an allied hero in a protective chrysalis, allowing the target to withstand incoming damage and recuperate.
+Ability_Monarch2_description2									
+Ability_Monarch2_description_simple								Target an allied hero to encase it in a chrysalis, ^oImmobilizing it for 4 seconds^*. While in the chrysalis, the target takes ^o{30,40,50,60}% reduced damage^* and heals for ^g{20,35,50,65} Health per second^*.
+Ability_Monarch2_effect_header									
+Ability_Monarch2_effect_header2									
+Ability_Monarch2_tooltip_flavor									I shall emerge as a beautiful butterfly!
+Ability_Monarch2_IMPACT_effect									Target an allied hero to encase it in a chrysalis, ^oImmobilizing it for 4 seconds^*. While in the chrysalis, the target takes ^o{30,40,50,60}% reduced damage^* and heals for ^g{20,35,50,65} Health per second^*.
+
+// State_Monarch_Ability2
+State_Monarch_Ability2_name										Chrysalis
+State_Monarch_Ability2_description								Immobilized and taking {50,60,70,80}% reduced damage\nHealing for {20,40,60,80} Health per second
+State_Monarch_Ability2_description2								
+State_Monarch_Ability2_description_simple						
+State_Monarch_Ability2_FRAME_effect								
+State_Monarch_Ability2_IMPACT_effect							
+State_Monarch_Ability2_DAMAGED_effect							
+State_Monarch_Ability2_EXPIRED_effect							
+
+// State_Monarch_Ability2_Buff
+State_Monarch_Ability2_Buff_name								
+State_Monarch_Ability2_Buff_description							
+State_Monarch_Ability2_Buff_description2						
+State_Monarch_Ability2_Buff_description_simple					
+
+// Ability_Monarch3
+Ability_Monarch3_name											Noxious Cloud
+Ability_Monarch3_description									Call an expanding noxious cloud to slow and damage enemies!
+Ability_Monarch3_description2									
+Ability_Monarch3_description_simple								Target a position to summon the cloud. The noxious cloud spreads from 150 to 550 AoE. Enemies within take ^o{15,30,45,60} Magic Damage^* per second and ^o{25,30,35,40}% Movespeed Slow^*.
+Ability_Monarch3_effect_header									
+Ability_Monarch3_effect_header2									
+Ability_Monarch3_tooltip_flavor									Boris Fart
+Ability_Monarch3_IMPACT_effect									Target a position to summon the cloud. The noxious cloud spreads from 150 to 550 AoE. Enemies within take ^o{15,30,45,60} Magic Damage^* per second and ^o{25,30,35,40}% Movespeed Slow^*.
+
+// Ability_Monarch4
+Ability_Monarch4_name											Cleansing Wind
+Ability_Monarch4_description									Target a position to create a gust that travels ^o1000 units^* in that direction. The gust removes all Debuffs and Stun from allies touched, including self, and also gives them ^o{80,140,200} Movement Speed^* for 6 seconds.
+Ability_Monarch4_description2									
+Ability_Monarch4_description_simple								Target a position to create a gust that travels ^o1000 units^* in that direction. The gust removes all Debuffs and Stun from allies touched, including self, and also gives them ^o{80,140,200} Movement Speed^* for 6 seconds.
+Ability_Monarch4_effect_header									
+Ability_Monarch4_effect_header2									
+Ability_Monarch4_tooltip_flavor									What smells?
+Ability_Monarch4_IMPACT_effect									
+
+// State_Monarch_Ability4
+State_Monarch_Ability4_name										Beautiful Butterfly
+State_Monarch_Ability4_description								Wings give speed
+State_Monarch_Ability4_description2								
+State_Monarch_Ability4_description_simple						
+State_Monarch_Ability4_KILLED_effect							
+
+// State_Monarch_Ability4_Silence
+State_Monarch_Ability4_Silence_name								
+State_Monarch_Ability4_Silence_description						
+State_Monarch_Ability4_Silence_description2						
+State_Monarch_Ability4_Silence_description_simple		
+
+
+// Hero_Monarch
+Hero_Monarch_name												Monarch
+Hero_Monarch_description										
+Hero_Monarch_role												Monarch is a fragile hero that effectively supports his team by staying behind the front lines.  By using Chrysalis and Cleansing Wind at the right time to save allies, Monarch can turn the tides of most any battle!
+
 // Ability_Moraxus1
 Ability_Moraxus1_name											Quake
 Ability_Moraxus1_description									Makes the ground quake beneath Moraxus, damaging and stunning nearby enemy units.
@@ -4847,8 +4929,8 @@ Ability_Ra2_IMPACT_effect										1.5 seconds after use, enemies hit by the exp
 
 // Ability_Ra3
 Ability_Ra3_name												Ashes to Ashes
-Ability_Ra3_description											{1,2,3,4} passive Health regeneration.\n\nRa passively gains bonuses based on how much damage he's taken recently, up to:\n^o*^*{20,30,40,50} Attack Speed\n^o*^*{20,30,40,50} Damage per second in a 350 AoE\n\nOne charge per 10 pre-mitigation damage.
-Ability_Ra3_description_simple									{1,2,3,4} passive Health regeneration.\n\nRa passively gains bonuses based on how much damage he's taken recently, up to:\n^o*^*{20,30,40,50} Attack Speed\n^o*^*{20,30,40,50} Damage per second in a 350 AoE\n\nOne charge per 10 pre-mitigation damage.
+Ability_Ra3_description											{1,2,3,4} passive Health regeneration.\n\nRa passively gains bonuses based on how much damage he's taken recently, up to:\n^o*^*{20,30,40,50} Attack Speed\n^o*^*{20,30,40,50} Magic Damage per second in a 350 AoE\n\nOne charge per 10 pre-mitigation damage.
+Ability_Ra3_description_simple									{1,2,3,4} passive Health regeneration.\n\nRa passively gains bonuses based on how much damage he's taken recently, up to:\n^o*^*{20,30,40,50} Attack Speed\n^o*^*{20,30,40,50} Magic Damage per second in a 350 AoE\n\nOne charge per 10 pre-mitigation damage.
 
 // Ability_Ra4
 Ability_Ra4_name												Pyroclasmic Rebirth
@@ -7981,7 +8063,7 @@ Ability_NecroMelee_2_name										Last Stand
 Ability_NecroMelee_2_description								On death, Puzzlebox Mauler explodes, dealing {200,400,600} True damage to the unit that killed it.
 Ability_NecroMelee_2_description_simple							Passively explodes on death, dealing ^o{200,400,600} True Damage^* to the unit that killed it.
 Ability_NecroMelee_2_effect_header								Status Effect
-Ability_NecroMelee_2_KILLED_effect								Deals {200,400,600} damage to the unit that lands the killing blow on Puzzlebox Mauler.
+Ability_NecroMelee_2_KILLED_effect								Deals {200,400,600} True Damage to the unit that lands the killing blow on Puzzlebox Mauler.
 
 // Ability_NecroMelee_3
 Ability_NecroMelee_3_name										Revealing Eye

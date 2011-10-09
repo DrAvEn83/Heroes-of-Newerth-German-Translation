@@ -283,7 +283,7 @@ chat_clan_rank_officer					Officer
 chat_clan_rank_leader					Leader
 chat_clan_no_clan						^279* You are not in a clan.
 chat_tourn_match_ready					^279* The match for the tournament you are scheduled to play in, ^990{name}^279, is now ready to join. Use the tournament section in the Community and Clan panel to join.
-chat_unable_to_join_group				Unable to join the TMM group because you are currently in a game or a replay.
+chat_unable_to_join_group				Unable to join the matchmaking group because you are currently in a game or a replay.
 
 
 // stats
