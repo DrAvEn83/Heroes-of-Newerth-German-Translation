@@ -155,6 +155,7 @@ general_help								Hilfe
 general_hero_agi							Agility Heroes
 general_hero_int							Intelligence Heroes
 general_hero_str							Strength Heroes
+general_afk									AFK
 
 // main.interface
 main_peel_tip								Besuche den Store
@@ -2140,6 +2141,15 @@ mstore_product851_name		Hero Alt- Mr. Chipper
 mstore_product852_name		Hero- Cthulhuphant
 mstore_product853_name		Hero Alt- King Cthulhu
 mstore_product854_name		Magus Bane
+mstore_product855_name		Hero Alt- Infernal Behemoth
+mstore_product858_name		Infernal Behemoth
+mstore_product859_name		Monarch
+mstore_product860_name		Monarch
+mstore_product861_name		Queen Monarch
+mstore_product862_name		HoNWars
+mstore_product863_name		Team TrollCasting
+mstore_product864_name		Hero Alt- Logger Legionnaire
+mstore_product868_name		Remembering Steve
 
 
 mstore_product999999001_name	Standard Account Icon
@@ -2319,6 +2329,7 @@ mstore_purchase_choosecurrency_desc		This item can be purchased with either Gold
 mstore_purchase_itemisfree			This item is available for free!  Click the Claim Item button below to receive this item.
 mstore_purchase_claimfree			Claim Free Item
 mstore_purchase_goldonly		This item can only be purchased with Gold Goblin Coins.
+mstore_purchase_silveronly		This item can only be purchased with Silver Goblin Coins.
 mstore_purchase_choosecurrency_viewcost		This item can be purchased with either Gold or Silver Coins, but you'll need to either purchase additional Gold Coins or earn additional Silver Coins to afford this item.
 mstore_premiumitem			Premium Item
 mstore_premiumitem_tip		This item can be purchased at normal price with Gold Coins or at a premium with Silver Coins.  Gold and Silver Coins may not be combined on Premium items.
@@ -2367,6 +2378,7 @@ mstore_icon_slot_locked		Icon Slot Locked
 mstore_taunt_slot_locked	Taunt Not Purchased
 mstore_unlock_taunt_body	You must first purchase Taunt before additional taunt styles can be purchased.
 mstore_unlock_body			You must purchase the Unlock Icon Slot before Account Icons can be purchased.
+mstore_unlock_pam_body		As a part of our Player Appreciation month all players have had their account icon slot unlocked for free! If you had previously purchased this item, you have been refunded 350 Silver Coins.
 mstore_unlock_taunt_confirm		Purchase Taunt and unlock additional taunt styles?
 mstore_unlock_confirm		Spend Goblin Coins to unlock Account Icons?
 mstore_unlock_icon_slot		Unlock Icon Slot
@@ -2619,6 +2631,9 @@ mstore_Hero_Legionnaire_name		Legionnaire
 mstore_Hero_Chipper_name			The Chipper
 mstore_Hero_Cthulhuphant_name		Cthulhuphant
 mstore_Hero_Javaras_name			Magebane
+mstore_Hero_Behemoth_name			Behemoth
+mstore_Hero_Monarch_name			Monarch
+
 
 //Account Icons
 mstore_unlock_icon_btn				Unlock Icon Slot
